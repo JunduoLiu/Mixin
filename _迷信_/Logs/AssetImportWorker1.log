@@ -1,0 +1,1542 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.19f1c2 (94354a08ed9f) revision 9712970'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home China; OS build 19043.1466; Version 2009; 64bit' Language: 'zh' Physical Memory: 16227 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/adouo/Desktop/_迷信_
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51483
+Successfully changed project path to: C:/Users/adouo/Desktop/_迷信_
+C:/Users/adouo/Desktop/_迷信_
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 81.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1c2 (94354a08ed9f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adouo/Desktop/_迷信_/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1c2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1c2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002372 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 126.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 81.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1343ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1157ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3982 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.3 MB.
+System memory in use after: 167.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4429.
+Total: 3.016500 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.168600 ms MarkObjects: 2.445700 ms  DeleteObjects: 0.078700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/室内-主角家/外屋/Sprite.controller
+  artifactKey: Guid(3b499b82674ab4c62b6786359100f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/外屋/Sprite.controller using Guid(3b499b82674ab4c62b6786359100f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2e9829223e6e2f6d1a9a5ea646482b') in 0.043944 seconds 
+  Import took 0.049337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.688899 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋
+  artifactKey: Guid(dfd5d94fc2fbb84478cf941d3b65246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋 using Guid(dfd5d94fc2fbb84478cf941d3b65246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a3547bb7d69b70e31d6683fc2bb752') in 0.008231 seconds 
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062066 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/2.png
+  artifactKey: Guid(3db9ddd245a32a146969edbd42e45dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/2.png using Guid(3db9ddd245a32a146969edbd42e45dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ddf5bc36d41844aae61c8d5e094d94') in 0.112916 seconds 
+  Import took 0.118937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/9.png
+  artifactKey: Guid(db5ac543b94f5184cbfc2ccffd04227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/9.png using Guid(db5ac543b94f5184cbfc2ccffd04227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512830fb956d2336309958fadeb2e40c') in 0.018081 seconds 
+  Import took 0.023711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/窗户（有树）.png
+  artifactKey: Guid(ed8692c9654aed845bad126929a5feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/窗户（有树）.png using Guid(ed8692c9654aed845bad126929a5feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0b1ce7ba80b5ee31ee3321bdea6f46') in 0.021169 seconds 
+  Import took 0.026415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/3.png
+  artifactKey: Guid(7f2604568f863c347b6072c59941f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/3.png using Guid(7f2604568f863c347b6072c59941f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46540ae1a814a6f3562a26bbc1256b9') in 0.017602 seconds 
+  Import took 0.022302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/里屋全景2.png
+  artifactKey: Guid(b587c5fa1b8882e4a8a3e39ea072222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/里屋全景2.png using Guid(b587c5fa1b8882e4a8a3e39ea072222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fb33139baed0bcabf0fcb2e81e620a') in 0.022947 seconds 
+  Import took 0.028622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/12.png
+  artifactKey: Guid(6ca727d1d2e4c9e45974d50e760f0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/12.png using Guid(6ca727d1d2e4c9e45974d50e760f0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f577e381041450c9cffb8432bf027b') in 0.029391 seconds 
+  Import took 0.038088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/15.png
+  artifactKey: Guid(626ca331de5f4ce4eb2c63c253947a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/15.png using Guid(626ca331de5f4ce4eb2c63c253947a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91d3361aeefbcab044a01c6ba9ba87f') in 0.027860 seconds 
+  Import took 0.034092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/14.png
+  artifactKey: Guid(e22893e9b30ab314ab815a59387562e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/14.png using Guid(e22893e9b30ab314ab815a59387562e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404ef1f6f10eeaab1706a44fc41c1f59') in 0.021537 seconds 
+  Import took 0.027088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/里屋的墙（有光的）.png
+  artifactKey: Guid(0a2a21b50ed87d54ca1e38a02ad564e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/里屋的墙（有光的）.png using Guid(0a2a21b50ed87d54ca1e38a02ad564e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a009372462d262f9d560f214068ead') in 0.021269 seconds 
+  Import took 0.027075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/13.png
+  artifactKey: Guid(f7db9b52831262246916b9a4a95417a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/13.png using Guid(f7db9b52831262246916b9a4a95417a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760197e96b3d962948fe948344a1b216') in 0.027186 seconds 
+  Import took 0.032703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/19.png
+  artifactKey: Guid(4e6d52954fbbb904293cbe1d9ae53ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/19.png using Guid(4e6d52954fbbb904293cbe1d9ae53ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae953f475cb7e6dd772845d392bab0c') in 0.022039 seconds 
+  Import took 0.028132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/7.png
+  artifactKey: Guid(0608ad7a1f4150d48a238e93d27d3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/7.png using Guid(0608ad7a1f4150d48a238e93d27d3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6c80a51f689324c2e8945577393a31') in 0.019902 seconds 
+  Import took 0.025937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/6.png
+  artifactKey: Guid(d315d6613ce33d44087a47f59d426e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/6.png using Guid(d315d6613ce33d44087a47f59d426e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5ef68d7d42835d66a4a26b0f7b4edc') in 0.022148 seconds 
+  Import took 0.029533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/8.png
+  artifactKey: Guid(2e0a9eb21c50c7a4b8eb6d505673e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/8.png using Guid(2e0a9eb21c50c7a4b8eb6d505673e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4a30dfc10446c32a5b51d96a8308ca') in 0.019675 seconds 
+  Import took 0.028091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/5.png
+  artifactKey: Guid(fb308361668da15418e88c8bbdbb6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/5.png using Guid(fb308361668da15418e88c8bbdbb6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455f5a4851ed2dd32826573182abb35b') in 0.018634 seconds 
+  Import took 0.024707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/外屋全景.png
+  artifactKey: Guid(4fe4c7eb94bcca244a40d12236056154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/外屋全景.png using Guid(4fe4c7eb94bcca244a40d12236056154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a36c6ad9753d63f082eee18a2540ffd') in 0.021230 seconds 
+  Import took 0.027296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/外屋的墙（有光的）.png
+  artifactKey: Guid(3e656a5e1ac42d44ba1f2c7558f08e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/外屋的墙（有光的）.png using Guid(3e656a5e1ac42d44ba1f2c7558f08e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2554cc0bc0e9e9d4aaa1251eb754aea8') in 0.016037 seconds 
+  Import took 0.021263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/窗户（没有树）.png
+  artifactKey: Guid(4edff24eb1af18c4394625e7908b6d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/窗户（没有树）.png using Guid(4edff24eb1af18c4394625e7908b6d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892daf6f7c5b4736ad99af6c83631a02') in 0.015908 seconds 
+  Import took 0.021276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/4.png
+  artifactKey: Guid(d946d1e541879c34ba91693a37ed4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/4.png using Guid(d946d1e541879c34ba91693a37ed4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d31d8a1315b28afb577ef3236a80c3') in 0.015810 seconds 
+  Import took 0.021377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/11.png
+  artifactKey: Guid(f4e84e8d3ff9fea459ad0d59837fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/11.png using Guid(f4e84e8d3ff9fea459ad0d59837fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bc28f092387b506a25e697511dfdaa') in 0.016095 seconds 
+  Import took 0.021283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/16.png
+  artifactKey: Guid(a9c02f5033a809f4c99508a1db556e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/16.png using Guid(a9c02f5033a809f4c99508a1db556e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3607244d45306fe4fe2b769767d621a') in 0.019228 seconds 
+  Import took 0.025529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/里屋全景1.png
+  artifactKey: Guid(97249cf549446794483492463b615753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/里屋全景1.png using Guid(97249cf549446794483492463b615753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c546a19be8088ca6fca6e6ede3c5b7') in 0.024663 seconds 
+  Import took 0.030384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/里屋的墙（没有光的）.png
+  artifactKey: Guid(51bcb0edecae91145bbe7eac8f2d0a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/里屋的墙（没有光的）.png using Guid(51bcb0edecae91145bbe7eac8f2d0a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ee018e9c8d8a5e963832e03c3d0d51') in 0.021106 seconds 
+  Import took 0.026949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/室内-主角家/归档里屋/10.png
+  artifactKey: Guid(f6497fdc78ae6ea48af7fbb252a78527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档里屋/10.png using Guid(f6497fdc78ae6ea48af7fbb252a78527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fdb2641c8d9e3497ea4de750c7f12f') in 0.022600 seconds 
+  Import took 0.028131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.499027 seconds.
+  path: Assets/Sprites/室内-主角家/归档外屋
+  artifactKey: Guid(fe12b24237fb3c149847c33f8d1f4721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档外屋 using Guid(fe12b24237fb3c149847c33f8d1f4721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3870b3df10dd2c30ce551b196897d03') in 0.005365 seconds 
+  Import took 0.011688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.699940 seconds.
+  path: Assets/Sprites/室内-主角家/归档外屋/4 1.png
+  artifactKey: Guid(331bf578312041841ba08675a034fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档外屋/4 1.png using Guid(331bf578312041841ba08675a034fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b7ce9d73cc6f7d769e14bcba1772bd') in 0.015803 seconds 
+  Import took 0.021876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.860910 seconds.
+  path: Assets/Sprites/室内-主角家/归档外屋/14.png
+  artifactKey: Guid(047467bfd1251c644b5e7f56f115f3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档外屋/14.png using Guid(047467bfd1251c644b5e7f56f115f3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7ee19c4af9027833ec8c9af34999f7') in 0.017760 seconds 
+  Import took 0.023779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.109570 seconds.
+  path: Assets/Sprites/室内-主角家/归档外屋/15.png
+  artifactKey: Guid(27c296e73d0fd8547a82aeb240586930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档外屋/15.png using Guid(27c296e73d0fd8547a82aeb240586930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b653cb18b1f09fba3a182b1a4301678d') in 0.017021 seconds 
+  Import took 0.024724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.340162 seconds.
+  path: Assets/Sprites/室内-主角家/归档外屋/__MACOSX
+  artifactKey: Guid(4b013749bfd40b54998389f58445d427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/室内-主角家/归档外屋/__MACOSX using Guid(4b013749bfd40b54998389f58445d427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734ae65de2e6118ad8f72c40a3af3c82') in 0.006325 seconds 
+  Import took 0.016316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 529.906262 seconds.
+  path: Assets/Scenes/Huang's House.unity
+  artifactKey: Guid(e76cb9bbcbf06f841b5ab2773d7a0c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Huang's House.unity using Guid(e76cb9bbcbf06f841b5ab2773d7a0c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613e4657ad77e32b2c8e39757a1ab1f') in 0.007342 seconds 
+  Import took 0.014343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.166208 seconds.
+  path: Assets/Sprites/申信家室内
+  artifactKey: Guid(29a6661d12ad54052aa02181c7737582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内 using Guid(29a6661d12ad54052aa02181c7737582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f8b388afb552931d77d8a1c7cf4d22') in 0.008012 seconds 
+  Import took 0.015663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.152154 seconds.
+  path: Assets/Sprites/黄阿姨加室内
+  artifactKey: Guid(8a3ed7c57834315409dc06560edc7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内 using Guid(8a3ed7c57834315409dc06560edc7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61fdb3ae1457002ab6af8e8ddebf535') in 0.007868 seconds 
+  Import took 0.015002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.200959 seconds.
+  path: Assets/Sprites/黄阿姨加室内/1.png
+  artifactKey: Guid(3cb87dd6253489d4fbff296c8dae7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/1.png using Guid(3cb87dd6253489d4fbff296c8dae7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a5a4ec434b1ae009fd5fbd472d0aa2') in 0.017504 seconds 
+  Import took 0.025239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/黄阿姨加室内/6.png
+  artifactKey: Guid(d662a01a2a0521f48834c576a0294da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/6.png using Guid(d662a01a2a0521f48834c576a0294da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e130f0de888180ed34dbc22ba5ec263b') in 0.021336 seconds 
+  Import took 0.028711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Sprites/黄阿姨加室内/5.png
+  artifactKey: Guid(dc5b2e334e8de0f42817f43b7d00e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/5.png using Guid(dc5b2e334e8de0f42817f43b7d00e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fcca295e894a2b6f40077f5b83ea6f') in 0.018268 seconds 
+  Import took 0.025163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/黄阿姨加室内/10.png
+  artifactKey: Guid(ffdc7b7735231c14e891164530b20e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/10.png using Guid(ffdc7b7735231c14e891164530b20e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3b3fbaf2ab99ee7be651bcfbc2348f') in 0.015156 seconds 
+  Import took 0.021579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Sprites/黄阿姨加室内/3.png
+  artifactKey: Guid(da964a87d9f3d9141abd0cd331dc2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/3.png using Guid(da964a87d9f3d9141abd0cd331dc2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89814a3253bf97f1622661c3e6e5ca6f') in 0.015446 seconds 
+  Import took 0.021237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Sprites/黄阿姨加室内/12.png
+  artifactKey: Guid(83fc644f39d4b4547a77c8e5a9863560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/12.png using Guid(83fc644f39d4b4547a77c8e5a9863560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbca3138df75f0729bcf72f1e88c259') in 0.025590 seconds 
+  Import took 0.030876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sprites/黄阿姨加室内/7.png
+  artifactKey: Guid(7b8949d8c8e602344b106859cd88f9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/7.png using Guid(7b8949d8c8e602344b106859cd88f9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428e9ffb3fbf0c5a5493f19e392312ae') in 0.014325 seconds 
+  Import took 0.020290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Sprites/黄阿姨加室内/9.png
+  artifactKey: Guid(89ac3bb0002fb1f4cb6a619ccf557f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/9.png using Guid(89ac3bb0002fb1f4cb6a619ccf557f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50e11420fce2e8bced32cfea3d9d252') in 0.015888 seconds 
+  Import took 0.022987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprites/黄阿姨加室内/2.png
+  artifactKey: Guid(00352766294ab074f8a2ef4aa911d6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/2.png using Guid(00352766294ab074f8a2ef4aa911d6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfddd9d6ff817e07d604ec208e11ded') in 0.016935 seconds 
+  Import took 0.023466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Sprites/黄阿姨加室内/8.png
+  artifactKey: Guid(30d5d66428926654695a1f4654839f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/8.png using Guid(30d5d66428926654695a1f4654839f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fb4902bcdafba95ecce2a6f430da9f') in 0.014229 seconds 
+  Import took 0.020922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/黄阿姨加室内/4.png
+  artifactKey: Guid(afb3e1a0652cca14ea9b22fec836808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/4.png using Guid(afb3e1a0652cca14ea9b22fec836808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3bff1ef2c4a0ab95cc1064154f4f13') in 0.013860 seconds 
+  Import took 0.018940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/黄阿姨加室内/11.png
+  artifactKey: Guid(feb6ebab4014aaf44873663d4334fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨加室内/11.png using Guid(feb6ebab4014aaf44873663d4334fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9565dcec1128fea2fedd463ef0c759e8') in 0.013317 seconds 
+  Import took 0.019145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 613.920174 seconds.
+  path: Assets/Scenes/Zhang's Clinic.unity
+  artifactKey: Guid(cea01a222b6332e4dae1e32ef8cc33af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Zhang's Clinic.unity using Guid(cea01a222b6332e4dae1e32ef8cc33af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39ff05930813f1d443e8f02e4270e82') in 0.006549 seconds 
+  Import took 0.013739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.002282 seconds.
+  path: Assets/Scenes/TownJinDong.unity
+  artifactKey: Guid(5ab9009c1077f5842ac3c1cefc645f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TownJinDong.unity using Guid(5ab9009c1077f5842ac3c1cefc645f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591134ee911883e722a306191ae546ef') in 0.006144 seconds 
+  Import took 0.011844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.014649 seconds.
+  path: Assets/Scenes/Huang's House.unity
+  artifactKey: Guid(e76cb9bbcbf06f841b5ab2773d7a0c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Huang's House.unity using Guid(e76cb9bbcbf06f841b5ab2773d7a0c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e7005384459204462531c4b9aa2015') in 0.002894 seconds 
+  Import took 0.009570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12162.351769 seconds.
+  path: Assets/Sprites/zhang's clinic
+  artifactKey: Guid(9dcf106e7e8af29418c8701931ecff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/zhang's clinic using Guid(9dcf106e7e8af29418c8701931ecff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485eceb2087bf95caa04b1ce4ffe9e38') in 0.005693 seconds 
+  Import took 0.013301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.092723 seconds.
+  path: Assets/Sprites/Int. Shen
+  artifactKey: Guid(29a6661d12ad54052aa02181c7737582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Shen using Guid(29a6661d12ad54052aa02181c7737582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f3b393436b70e0e2882868eb4afe8') in 0.006128 seconds 
+  Import took 0.014523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.972285 seconds.
+  path: Assets/Sprites/Int. Clinic
+  artifactKey: Guid(9dcf106e7e8af29418c8701931ecff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic using Guid(9dcf106e7e8af29418c8701931ecff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fbe6065cbfa91b48eb828057b17889') in 0.006896 seconds 
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.580043 seconds.
+  path: Assets/Sprites/Int. Huang
+  artifactKey: Guid(8a3ed7c57834315409dc06560edc7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Huang using Guid(8a3ed7c57834315409dc06560edc7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610a30a6c7e5f9fbc6963136ebbd1370') in 0.007084 seconds 
+  Import took 0.013432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.896257 seconds.
+  path: Assets/Sprites/Town
+  artifactKey: Guid(8c11122cade40ab41b17998cb077f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Town using Guid(8c11122cade40ab41b17998cb077f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaeeb6e5be95e8ba03d15c899e98277') in 0.007334 seconds 
+  Import took 0.013669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.331956 seconds.
+  path: Assets/Sprites/Town/Artificial
+  artifactKey: Guid(56f2e0d209c704bee98a58e081e0197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Town/Artificial using Guid(56f2e0d209c704bee98a58e081e0197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c43a5f3b311f763816d60213e7c016') in 0.005813 seconds 
+  Import took 0.012633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.114457 seconds.
+  path: Assets/Sprites/Town/Buidlings
+  artifactKey: Guid(1c44e963ed1954986a41e775409af1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Town/Buidlings using Guid(1c44e963ed1954986a41e775409af1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199881cfcafc910202daa42f9f9cc486') in 0.007322 seconds 
+  Import took 0.013480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.069657 seconds.
+  path: Assets/Sprites/Town/Natural
+  artifactKey: Guid(1416ce103c465461aa5ff20c97e4068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Town/Natural using Guid(1416ce103c465461aa5ff20c97e4068b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2eab3581a6755c18958a6b503b7cb6') in 0.006619 seconds 
+  Import took 0.013673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.571070 seconds.
+  path: Assets/Sprites/Animals
+  artifactKey: Guid(973b3239c29bf694b97e77d017042053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animals using Guid(973b3239c29bf694b97e77d017042053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a318540f68f0baddacd1834ada70037a') in 0.005916 seconds 
+  Import took 0.012291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047097 seconds.
+  path: Assets/Sprites/Animals/牛.png
+  artifactKey: Guid(f05f4680448a74534ab7726fb998fba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animals/牛.png using Guid(f05f4680448a74534ab7726fb998fba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c857d8ff6b1a24aaa5f18f09699b6c7') in 0.028263 seconds 
+  Import took 0.034632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Sprites/Animals/狗.png
+  artifactKey: Guid(ea5294d81ff734f90829fef0f16164c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animals/狗.png using Guid(ea5294d81ff734f90829fef0f16164c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8277a26b670780431de99b34d39bc65') in 0.026875 seconds 
+  Import took 0.032204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprites/Animals/鹅spritesheet.png
+  artifactKey: Guid(b8aabec84ac55254a82f1b03a816b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animals/鹅spritesheet.png using Guid(b8aabec84ac55254a82f1b03a816b5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d9db88c3a8fedcc957f4bd79955b10') in 0.037549 seconds 
+  Import took 0.042452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Animals/鹅.png
+  artifactKey: Guid(ec1a1ebe987008b41a72b26f79b5cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animals/鹅.png using Guid(ec1a1ebe987008b41a72b26f79b5cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3362aeb5b819dc8c20afb7af8add613a') in 0.027276 seconds 
+  Import took 0.033119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.675195 seconds.
+  path: Assets/Sprites/Animals/Materials
+  artifactKey: Guid(3706a09c047c1a84bb570a89711ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animals/Materials using Guid(3706a09c047c1a84bb570a89711ac3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73482586f541555cf245fb3deef74d42') in 0.005483 seconds 
+  Import took 0.011549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.199836 seconds.
+  path: Assets/Sprites/Animals/Materials/鹅.mat
+  artifactKey: Guid(8e27b90170bab5746a1cc163bc7a4fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animals/Materials/鹅.mat using Guid(8e27b90170bab5746a1cc163bc7a4fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369c4de217e026a3c1ec3be707924ce2') in 0.053927 seconds 
+  Import took 0.059714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.922537 seconds.
+  path: Assets/Sprites/Characters/Shen
+  artifactKey: Guid(678097c3491a95541becd5e64bdc0fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Shen using Guid(678097c3491a95541becd5e64bdc0fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47672b28e46fae187fbc1d3c25f5a5f5') in 0.006826 seconds 
+  Import took 0.012370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.818529 seconds.
+  path: Assets/Sprites/Characters/母亲
+  artifactKey: Guid(5e4362854d132654cbbb5e4e5b51ced7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/母亲 using Guid(5e4362854d132654cbbb5e4e5b51ced7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7182134cb9c2dca5ac2af354ceb4290a') in 0.007018 seconds 
+  Import took 0.013878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.861274 seconds.
+  path: Assets/Sprites/Characters/Mom
+  artifactKey: Guid(5e4362854d132654cbbb5e4e5b51ced7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Mom using Guid(5e4362854d132654cbbb5e4e5b51ced7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a02b680ec7c1c8f54344ce27330c0f') in 0.005573 seconds 
+  Import took 0.011597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.437826 seconds.
+  path: Assets/Sprites/Characters/黄阿姨
+  artifactKey: Guid(9ae3dcba6a877db4b9e204a5208538e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/黄阿姨 using Guid(9ae3dcba6a877db4b9e204a5208538e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435f4455ec0b75e7c2217dfee8abcbff') in 0.007325 seconds 
+  Import took 0.013197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.052363 seconds.
+  path: Assets/Sprites/Characters/Huang
+  artifactKey: Guid(9ae3dcba6a877db4b9e204a5208538e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Huang using Guid(9ae3dcba6a877db4b9e204a5208538e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc972c980f464699707b3d0b25682ce') in 0.006136 seconds 
+  Import took 0.012901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.431221 seconds.
+  path: Assets/Sprites/Int. Clinic/墙面和窗户.png
+  artifactKey: Guid(16a18ddf1d890d240a3b486ba16f1f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/墙面和窗户.png using Guid(16a18ddf1d890d240a3b486ba16f1f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7e149c48856b2e4a173177d4319435') in 0.014997 seconds 
+  Import took 0.021298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.811262 seconds.
+  path: Assets/Sprites/Int. Clinic/公共座椅.png
+  artifactKey: Guid(c67fb34a0822396499faf0fa492c9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/公共座椅.png using Guid(c67fb34a0822396499faf0fa492c9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb48f415bb35887feaa82afc8bb55f97') in 0.021111 seconds 
+  Import took 0.028379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.475418 seconds.
+  path: Assets/Sprites/Int. Clinic/玻璃柜里的药品.png
+  artifactKey: Guid(0faf662accc02d844adb3834a31b7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/玻璃柜里的药品.png using Guid(0faf662accc02d844adb3834a31b7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990a86c8553745374deddaa7bce63bf8') in 0.016443 seconds 
+  Import took 0.022364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.401019 seconds.
+  path: Assets/Sprites/Int. Clinic/玻璃柜.png
+  artifactKey: Guid(6c506ad46c47723478287b0b5b1c17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/玻璃柜.png using Guid(6c506ad46c47723478287b0b5b1c17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a9ed2e5978fa16450f03815b2aa35e') in 0.015880 seconds 
+  Import took 0.021616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946504 seconds.
+  path: Assets/Sprites/Int. Clinic/洗手池.png
+  artifactKey: Guid(841e063bba2361343bee00aa05ff2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/洗手池.png using Guid(841e063bba2361343bee00aa05ff2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982b64da639e23b82121c0f1a72b9e12') in 0.021805 seconds 
+  Import took 0.028550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002977 seconds.
+  path: Assets/Sprites/Int. Clinic/药店大门.png
+  artifactKey: Guid(0f3839310dc892043a1354d1cf85e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/药店大门.png using Guid(0f3839310dc892043a1354d1cf85e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540b05d3ae837e0107c2da0efa522100') in 0.015927 seconds 
+  Import took 0.021919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.555487 seconds.
+  path: Assets/Sprites/Int. Clinic/药品纸箱.png
+  artifactKey: Guid(96ddf3cfee272d04aa6bd32f89597d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/药品纸箱.png using Guid(96ddf3cfee272d04aa6bd32f89597d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43160789dfab7ea344a06a73562e7b0') in 0.018209 seconds 
+  Import took 0.025687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.131531 seconds.
+  path: Assets/Sprites/Int. Clinic/长凳.png
+  artifactKey: Guid(10d1146781c00894d98428366b179605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/长凳.png using Guid(10d1146781c00894d98428366b179605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc70da144789b8f3e87b10dec95e409') in 0.017877 seconds 
+  Import took 0.025635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.532016 seconds.
+  path: Assets/Sprites/Int. Clinic/铁皮药柜.png
+  artifactKey: Guid(8a685d251d2e9bd48ad9012c128e932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Int. Clinic/铁皮药柜.png using Guid(8a685d251d2e9bd48ad9012c128e932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243b629b6d0ce70116b9880f8a329ae7') in 0.018915 seconds 
+  Import took 0.025683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.368056 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3075b5c402afc6e0b6a08f8a256f5b') in 0.011908 seconds 
+  Import took 0.019866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 691.887724 seconds.
+  path: Assets/Sprites/诊所室内
+  artifactKey: Guid(9dcf106e7e8af29418c8701931ecff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内 using Guid(9dcf106e7e8af29418c8701931ecff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7033c9d02e75cf4e017c80ddc863d2f') in 0.005953 seconds 
+  Import took 0.013582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.272520 seconds.
+  path: Assets/Sprites/金东村室外
+  artifactKey: Guid(8c11122cade40ab41b17998cb077f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外 using Guid(8c11122cade40ab41b17998cb077f7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b82201d7c52b8a723481e185b2b3953') in 0.005739 seconds 
+  Import took 0.011077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.417544 seconds.
+  path: Assets/Sprites/黄阿姨家室内
+  artifactKey: Guid(8a3ed7c57834315409dc06560edc7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内 using Guid(8a3ed7c57834315409dc06560edc7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71e18eae2bdc7e5b1a99a0a7380df43') in 0.006544 seconds 
+  Import took 0.013721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.539184 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/1.png
+  artifactKey: Guid(3a24a6263474c19418c6a701322ff297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/1.png using Guid(3a24a6263474c19418c6a701322ff297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1f456294272ecac5aed8ea153f0040') in 0.026519 seconds 
+  Import took 0.032287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/9.png
+  artifactKey: Guid(c4f89361e163d624bba9ab9972c3d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/9.png using Guid(c4f89361e163d624bba9ab9972c3d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be494c1f577eb222d572370af5293f5b') in 0.015009 seconds 
+  Import took 0.020377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/13.png
+  artifactKey: Guid(106adee8e5278e541acca8dc3f058d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/13.png using Guid(106adee8e5278e541acca8dc3f058d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03455087652adb43028c6691ecc75f1') in 0.027580 seconds 
+  Import took 0.033460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/4.png
+  artifactKey: Guid(8dc90a6d9632d4746b4e58dbb926880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/4.png using Guid(8dc90a6d9632d4746b4e58dbb926880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4797b64c13527c8de6e8ead244e0901') in 0.018183 seconds 
+  Import took 0.025113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/5.png
+  artifactKey: Guid(d518305ea7268624f977f12e02b619dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/5.png using Guid(d518305ea7268624f977f12e02b619dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664dac039cbee82044f0bb599758ae4b') in 0.017219 seconds 
+  Import took 0.022930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/6.png
+  artifactKey: Guid(041152d892ca69543a840d4ca5f5c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/6.png using Guid(041152d892ca69543a840d4ca5f5c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b307ee07cff080a281daee0fa8c7799c') in 0.024524 seconds 
+  Import took 0.032275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/2.png
+  artifactKey: Guid(1501f1cf10abeee448967a8dab8acaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/2.png using Guid(1501f1cf10abeee448967a8dab8acaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35145019956d0d47defe776024605f92') in 0.017119 seconds 
+  Import took 0.022965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/3.png
+  artifactKey: Guid(2465faac54a8adf4784030352007f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/3.png using Guid(2465faac54a8adf4784030352007f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2782c89d2d8d820914ec193ee71506') in 0.017051 seconds 
+  Import took 0.023686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/10.png
+  artifactKey: Guid(2e47408d2a53b5e43b18e519ba4ba82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/10.png using Guid(2e47408d2a53b5e43b18e519ba4ba82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244933618de40b4468996de0d53c131') in 0.017676 seconds 
+  Import took 0.023617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/11.png
+  artifactKey: Guid(beb6777c67ce8b9409e6c7eed6240fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/11.png using Guid(beb6777c67ce8b9409e6c7eed6240fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb35bf8bd98b845d4014f308fee3843') in 0.018087 seconds 
+  Import took 0.025417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/8.png
+  artifactKey: Guid(09be654900dc6ae4bbebf8eced95681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/8.png using Guid(09be654900dc6ae4bbebf8eced95681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed07f3cbb7f7918f9ba814833d14a77') in 0.017137 seconds 
+  Import took 0.024215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/12.png
+  artifactKey: Guid(dd96b2bd32afb7143ae933b03f17e769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/12.png using Guid(dd96b2bd32afb7143ae933b03f17e769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0867941aedeaa1831f4109e7546efc') in 0.022172 seconds 
+  Import took 0.029835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Sprites/申信家室内/归档外屋/7.png
+  artifactKey: Guid(f0bb63e04855e0a40bb5f72ec3e5c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档外屋/7.png using Guid(f0bb63e04855e0a40bb5f72ec3e5c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f584bbcb2b0f3897a5fa9b6621f06bd') in 0.025136 seconds 
+  Import took 0.032402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.402420 seconds.
+  path: Assets/Sprites/诊所室内/公共座椅.png
+  artifactKey: Guid(c67fb34a0822396499faf0fa492c9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/公共座椅.png using Guid(c67fb34a0822396499faf0fa492c9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e73c08762a4177891f116c0251e809d') in 0.015602 seconds 
+  Import took 0.022069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Sprites/诊所室内/玻璃柜里的药品.png
+  artifactKey: Guid(0faf662accc02d844adb3834a31b7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/玻璃柜里的药品.png using Guid(0faf662accc02d844adb3834a31b7855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c496ab71452e4fb167c77b313089d65') in 0.026596 seconds 
+  Import took 0.033417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/诊所室内/药店大门.png
+  artifactKey: Guid(0f3839310dc892043a1354d1cf85e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/药店大门.png using Guid(0f3839310dc892043a1354d1cf85e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8506c3c6393e4355f70ffb0fc91a950') in 0.021592 seconds 
+  Import took 0.027892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/诊所室内/铁皮药柜.png
+  artifactKey: Guid(8a685d251d2e9bd48ad9012c128e932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/铁皮药柜.png using Guid(8a685d251d2e9bd48ad9012c128e932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457cc2036e6ea2dc67d9c1bfa6e3bb66') in 0.025329 seconds 
+  Import took 0.031472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/诊所室内/长凳.png
+  artifactKey: Guid(10d1146781c00894d98428366b179605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/长凳.png using Guid(10d1146781c00894d98428366b179605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f2f5ded268ca45fe0af1b44ca1d12') in 0.018321 seconds 
+  Import took 0.024658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/诊所室内/墙面和窗户.png
+  artifactKey: Guid(16a18ddf1d890d240a3b486ba16f1f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/墙面和窗户.png using Guid(16a18ddf1d890d240a3b486ba16f1f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86a5b0a65a15039df39c272bb1e1ad2') in 0.024805 seconds 
+  Import took 0.030519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/诊所室内/药品纸箱.png
+  artifactKey: Guid(96ddf3cfee272d04aa6bd32f89597d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/药品纸箱.png using Guid(96ddf3cfee272d04aa6bd32f89597d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012b4c307b6286cfb1507ec308e17033') in 0.016241 seconds 
+  Import took 0.022331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprites/诊所室内/洗手池.png
+  artifactKey: Guid(841e063bba2361343bee00aa05ff2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/洗手池.png using Guid(841e063bba2361343bee00aa05ff2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324e93858bcf7e6a0f3f7addbc033456') in 0.015717 seconds 
+  Import took 0.021532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Sprites/诊所室内/玻璃柜.png
+  artifactKey: Guid(6c506ad46c47723478287b0b5b1c17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/诊所室内/玻璃柜.png using Guid(6c506ad46c47723478287b0b5b1c17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b8347017701afe6659e45bca6601e9') in 0.014017 seconds 
+  Import took 0.020081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.908886 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/2.png
+  artifactKey: Guid(3db9ddd245a32a146969edbd42e45dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/2.png using Guid(3db9ddd245a32a146969edbd42e45dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4a7b87ddccf89b74e38232cf89bcbb') in 0.018305 seconds 
+  Import took 0.023878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/9.png
+  artifactKey: Guid(db5ac543b94f5184cbfc2ccffd04227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/9.png using Guid(db5ac543b94f5184cbfc2ccffd04227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2ca3e87a8b73ab40cdff2de659a23d') in 0.018366 seconds 
+  Import took 0.025660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/窗户（有树）.png
+  artifactKey: Guid(ed8692c9654aed845bad126929a5feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/窗户（有树）.png using Guid(ed8692c9654aed845bad126929a5feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b04d2ef0a02d31176cb8efd4d705ec') in 0.016953 seconds 
+  Import took 0.022947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/3.png
+  artifactKey: Guid(7f2604568f863c347b6072c59941f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/3.png using Guid(7f2604568f863c347b6072c59941f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976c47c97943e1e330902c074731c0e1') in 0.015746 seconds 
+  Import took 0.022122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/里屋全景2.png
+  artifactKey: Guid(b587c5fa1b8882e4a8a3e39ea072222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/里屋全景2.png using Guid(b587c5fa1b8882e4a8a3e39ea072222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4199e1645646872417f72f1ba0adfaf') in 0.032861 seconds 
+  Import took 0.039143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/12.png
+  artifactKey: Guid(6ca727d1d2e4c9e45974d50e760f0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/12.png using Guid(6ca727d1d2e4c9e45974d50e760f0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25f423df34e1b5dba72b1018fd93c3d') in 0.017105 seconds 
+  Import took 0.022954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/15.png
+  artifactKey: Guid(626ca331de5f4ce4eb2c63c253947a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/15.png using Guid(626ca331de5f4ce4eb2c63c253947a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f56a5b8911d5cca88cd741626739dc8') in 0.018673 seconds 
+  Import took 0.024551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/14.png
+  artifactKey: Guid(e22893e9b30ab314ab815a59387562e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/14.png using Guid(e22893e9b30ab314ab815a59387562e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7058626da602ec602ac5c35c541133') in 0.016831 seconds 
+  Import took 0.023737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/里屋的墙（有光的）.png
+  artifactKey: Guid(0a2a21b50ed87d54ca1e38a02ad564e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/里屋的墙（有光的）.png using Guid(0a2a21b50ed87d54ca1e38a02ad564e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537bd8d7e0a9ef668c113156de813825') in 0.026248 seconds 
+  Import took 0.032369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/13.png
+  artifactKey: Guid(f7db9b52831262246916b9a4a95417a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/13.png using Guid(f7db9b52831262246916b9a4a95417a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1083087560231700647ff66c8d138c4c') in 0.014260 seconds 
+  Import took 0.020471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/19.png
+  artifactKey: Guid(4e6d52954fbbb904293cbe1d9ae53ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/19.png using Guid(4e6d52954fbbb904293cbe1d9ae53ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7693980fbb810177263ab9d3c4d106e0') in 0.014476 seconds 
+  Import took 0.021656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/7.png
+  artifactKey: Guid(0608ad7a1f4150d48a238e93d27d3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/7.png using Guid(0608ad7a1f4150d48a238e93d27d3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91325fb910522ede0ac51a5ea828ef12') in 0.014494 seconds 
+  Import took 0.020497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/6.png
+  artifactKey: Guid(d315d6613ce33d44087a47f59d426e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/6.png using Guid(d315d6613ce33d44087a47f59d426e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d1f6154c2b6f59d0aa3e68c7adbaf3') in 0.015005 seconds 
+  Import took 0.021019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/8.png
+  artifactKey: Guid(2e0a9eb21c50c7a4b8eb6d505673e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/8.png using Guid(2e0a9eb21c50c7a4b8eb6d505673e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d0ca3f220920c0e1d99c81793a80d5') in 0.012221 seconds 
+  Import took 0.018367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/5.png
+  artifactKey: Guid(fb308361668da15418e88c8bbdbb6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/5.png using Guid(fb308361668da15418e88c8bbdbb6c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627f8c9de064a58f14731e3ee017e926') in 0.015455 seconds 
+  Import took 0.021491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/外屋全景.png
+  artifactKey: Guid(4fe4c7eb94bcca244a40d12236056154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/外屋全景.png using Guid(4fe4c7eb94bcca244a40d12236056154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e136f7006d835d1f79027fb8768a051') in 0.018517 seconds 
+  Import took 0.024671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/外屋的墙（有光的）.png
+  artifactKey: Guid(3e656a5e1ac42d44ba1f2c7558f08e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/外屋的墙（有光的）.png using Guid(3e656a5e1ac42d44ba1f2c7558f08e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa47b2626eed14bd5fddf6ad34fee0d') in 0.022605 seconds 
+  Import took 0.028841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/窗户（没有树）.png
+  artifactKey: Guid(4edff24eb1af18c4394625e7908b6d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/窗户（没有树）.png using Guid(4edff24eb1af18c4394625e7908b6d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91af2ba6c300f37d652ba21808f82686') in 0.015281 seconds 
+  Import took 0.021107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/4.png
+  artifactKey: Guid(d946d1e541879c34ba91693a37ed4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/4.png using Guid(d946d1e541879c34ba91693a37ed4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcde229dd7cd28bcc598466a99a3e2ad') in 0.015007 seconds 
+  Import took 0.021705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/11.png
+  artifactKey: Guid(f4e84e8d3ff9fea459ad0d59837fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/11.png using Guid(f4e84e8d3ff9fea459ad0d59837fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35e54b1e3bb4ff44cf8bf03cf8bba2b') in 0.015016 seconds 
+  Import took 0.020965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/16.png
+  artifactKey: Guid(a9c02f5033a809f4c99508a1db556e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/16.png using Guid(a9c02f5033a809f4c99508a1db556e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac7989c7817ddc86b3cb4b25dfb76d6') in 0.014771 seconds 
+  Import took 0.020834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/里屋全景1.png
+  artifactKey: Guid(97249cf549446794483492463b615753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/里屋全景1.png using Guid(97249cf549446794483492463b615753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93489f23e97a6747d6fe31cbfe8f9afe') in 0.023112 seconds 
+  Import took 0.029193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/里屋的墙（没有光的）.png
+  artifactKey: Guid(51bcb0edecae91145bbe7eac8f2d0a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/里屋的墙（没有光的）.png using Guid(51bcb0edecae91145bbe7eac8f2d0a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874099c16259361f6d746525fe0caaff') in 0.020379 seconds 
+  Import took 0.026354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/申信家室内/归档里屋/10.png
+  artifactKey: Guid(f6497fdc78ae6ea48af7fbb252a78527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/归档里屋/10.png using Guid(f6497fdc78ae6ea48af7fbb252a78527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2cabe995b47e60501c49160a577667') in 0.014159 seconds 
+  Import took 0.020340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.547721 seconds.
+  path: Assets/Sprites/申信家室内/里屋/banner.png
+  artifactKey: Guid(60c8f7044bf424f52a8ed1c66ead01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/banner.png using Guid(60c8f7044bf424f52a8ed1c66ead01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5717bcc0b13ee3cd8af3ae2ac8f82f7a') in 0.019433 seconds 
+  Import took 0.025227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/申信家室内/里屋/door.png
+  artifactKey: Guid(3bd26d9a2406245afb0eb1af5f9b44c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/door.png using Guid(3bd26d9a2406245afb0eb1af5f9b44c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a7a38b1f16ef378a1ac601ed99f4a8') in 0.027680 seconds 
+  Import took 0.032569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprites/申信家室内/里屋/bed（mama）.png
+  artifactKey: Guid(c1f033728e05c465e9d13bf311e99962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/bed（mama）.png using Guid(c1f033728e05c465e9d13bf311e99962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9136f71c48f71d6d12b452d8754e195') in 0.027467 seconds 
+  Import took 0.032645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sprites/申信家室内/里屋/seat、vat.png
+  artifactKey: Guid(ad186052e9238498f9e71ac2a2a06c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/seat、vat.png using Guid(ad186052e9238498f9e71ac2a2a06c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3450c5e15eea8295e10eda2a377cd5cf') in 0.020372 seconds 
+  Import took 0.025562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Sprites/申信家室内/里屋/wall.png
+  artifactKey: Guid(eb582374f8a614e8e8012a8e9a233d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/wall.png using Guid(eb582374f8a614e8e8012a8e9a233d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6468f780f23d773fdb07483e366fe794') in 0.022074 seconds 
+  Import took 0.028155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/申信家室内/里屋/prize.png
+  artifactKey: Guid(9da7d371f83ff40c29ab69ce1b694553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/prize.png using Guid(9da7d371f83ff40c29ab69ce1b694553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21260186fea9e88bb3bbee41e8f3dd9') in 0.023132 seconds 
+  Import took 0.029109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/申信家室内/里屋/calendar.png
+  artifactKey: Guid(69c593e32bd994ad7a5c7034eedca819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/calendar.png using Guid(69c593e32bd994ad7a5c7034eedca819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae79a710bb585f0b741d0f813853976') in 0.025043 seconds 
+  Import took 0.030664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/申信家室内/里屋/papa&mama.png
+  artifactKey: Guid(3cb63488985de4c90897b4acb8ef2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/papa&mama.png using Guid(3cb63488985de4c90897b4acb8ef2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ad4bb0c402a713db90024e3193a032') in 0.024336 seconds 
+  Import took 0.030007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/申信家室内/里屋/broom.png
+  artifactKey: Guid(a6d481d6521cb42eea883f75eadce93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/broom.png using Guid(a6d481d6521cb42eea883f75eadce93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429c6e3413cde17060416495f2378143') in 0.019749 seconds 
+  Import took 0.025209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Sprites/申信家室内/里屋/mama.png
+  artifactKey: Guid(520a565898dcb4c78b02e686d00b4365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/mama.png using Guid(520a565898dcb4c78b02e686d00b4365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2717151d46f1246dfca2f32b76c08cb0') in 0.023513 seconds 
+  Import took 0.029640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/申信家室内/里屋/newspaper.png
+  artifactKey: Guid(70e17cc027f0c4e15a5976afca6d5d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/newspaper.png using Guid(70e17cc027f0c4e15a5976afca6d5d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6966b4e189795e8f7b746dc1170d06') in 0.022467 seconds 
+  Import took 0.027814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/申信家室内/里屋/scene.png
+  artifactKey: Guid(c3e5891c030d4433db759ffc75a5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/scene.png using Guid(c3e5891c030d4433db759ffc75a5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c9145a8e7303760c256ae1af343be') in 0.030841 seconds 
+  Import took 0.036558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/申信家室内/里屋/dead papa.png
+  artifactKey: Guid(5b4fc0da17f9b4beebcedbd166c07c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/dead papa.png using Guid(5b4fc0da17f9b4beebcedbd166c07c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27de626f7fb944081cf3e42ed99a5a72') in 0.020642 seconds 
+  Import took 0.027176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.296133 seconds.
+  path: Assets/Sprites/申信家室内/里屋/banner.png
+  artifactKey: Guid(60c8f7044bf424f52a8ed1c66ead01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/banner.png using Guid(60c8f7044bf424f52a8ed1c66ead01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c87eee24144004d2b0d9a08f38599b2') in 0.021673 seconds 
+  Import took 0.034134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Sprites/申信家室内/里屋/door.png
+  artifactKey: Guid(3bd26d9a2406245afb0eb1af5f9b44c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/door.png using Guid(3bd26d9a2406245afb0eb1af5f9b44c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca1cc9aab64dc55d2e42d12137c856b') in 0.024084 seconds 
+  Import took 0.031150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/申信家室内/里屋/bed（mama）.png
+  artifactKey: Guid(c1f033728e05c465e9d13bf311e99962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/bed（mama）.png using Guid(c1f033728e05c465e9d13bf311e99962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f647d82586b83f429eff34dbad6688') in 0.029225 seconds 
+  Import took 0.041395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Sprites/申信家室内/里屋/seat、vat.png
+  artifactKey: Guid(ad186052e9238498f9e71ac2a2a06c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/seat、vat.png using Guid(ad186052e9238498f9e71ac2a2a06c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e1a6ef20a7bcfc2508569764d61375') in 0.022771 seconds 
+  Import took 0.037963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Sprites/申信家室内/里屋/wall.png
+  artifactKey: Guid(eb582374f8a614e8e8012a8e9a233d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/wall.png using Guid(eb582374f8a614e8e8012a8e9a233d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af6a49fccd5b7a60f8bc1f91aac973f') in 0.022720 seconds 
+  Import took 0.033010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/申信家室内/里屋/prize.png
+  artifactKey: Guid(9da7d371f83ff40c29ab69ce1b694553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/prize.png using Guid(9da7d371f83ff40c29ab69ce1b694553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080abc73e5571fcee19d855da5632a1c') in 0.017663 seconds 
+  Import took 0.026253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/申信家室内/里屋/calendar.png
+  artifactKey: Guid(69c593e32bd994ad7a5c7034eedca819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/calendar.png using Guid(69c593e32bd994ad7a5c7034eedca819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c886f8f39bdf72734ce450f9af9958') in 0.019858 seconds 
+  Import took 0.028241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/申信家室内/里屋/papa&mama.png
+  artifactKey: Guid(3cb63488985de4c90897b4acb8ef2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/papa&mama.png using Guid(3cb63488985de4c90897b4acb8ef2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e784a4a6da8a754b2ce23f69ca8d07b1') in 0.017901 seconds 
+  Import took 0.027187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/申信家室内/里屋/broom.png
+  artifactKey: Guid(a6d481d6521cb42eea883f75eadce93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/broom.png using Guid(a6d481d6521cb42eea883f75eadce93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bde2d59e674f4b7a10e7df5313773c') in 0.019163 seconds 
+  Import took 0.026014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/申信家室内/里屋/mama.png
+  artifactKey: Guid(520a565898dcb4c78b02e686d00b4365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/mama.png using Guid(520a565898dcb4c78b02e686d00b4365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805aa7babb97713c0710c29fb8966558') in 0.018689 seconds 
+  Import took 0.024209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/申信家室内/里屋/newspaper.png
+  artifactKey: Guid(70e17cc027f0c4e15a5976afca6d5d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/newspaper.png using Guid(70e17cc027f0c4e15a5976afca6d5d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fe4ca5d955777d93f340a02d9a4024') in 0.020463 seconds 
+  Import took 0.027455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/申信家室内/里屋/scene.png
+  artifactKey: Guid(c3e5891c030d4433db759ffc75a5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/scene.png using Guid(c3e5891c030d4433db759ffc75a5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2693e8b27c45937e486f69597a621a2a') in 0.019071 seconds 
+  Import took 0.025946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/申信家室内/里屋/dead papa.png
+  artifactKey: Guid(5b4fc0da17f9b4beebcedbd166c07c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/申信家室内/里屋/dead papa.png using Guid(5b4fc0da17f9b4beebcedbd166c07c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8505d8ee658d1a4c50057913eb665386') in 0.020112 seconds 
+  Import took 0.026503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.517348 seconds.
+  path: Assets/Sprites/黄阿姨家室内/1.png
+  artifactKey: Guid(3cb87dd6253489d4fbff296c8dae7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/1.png using Guid(3cb87dd6253489d4fbff296c8dae7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6b9acd6c488d604a1356d75b79c627') in 0.015009 seconds 
+  Import took 0.021082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/黄阿姨家室内/6.png
+  artifactKey: Guid(d662a01a2a0521f48834c576a0294da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/6.png using Guid(d662a01a2a0521f48834c576a0294da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb35c7ebe1a116db20d9e9cba3eddf6') in 0.014409 seconds 
+  Import took 0.020536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Sprites/黄阿姨家室内/5.png
+  artifactKey: Guid(dc5b2e334e8de0f42817f43b7d00e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/5.png using Guid(dc5b2e334e8de0f42817f43b7d00e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50145369309830a5547831d7514328f1') in 0.023631 seconds 
+  Import took 0.030364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/黄阿姨家室内/10.png
+  artifactKey: Guid(ffdc7b7735231c14e891164530b20e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/10.png using Guid(ffdc7b7735231c14e891164530b20e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08e19c73a7444f09c73fd9987a46c65') in 0.023744 seconds 
+  Import took 0.029261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/黄阿姨家室内/3.png
+  artifactKey: Guid(da964a87d9f3d9141abd0cd331dc2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/3.png using Guid(da964a87d9f3d9141abd0cd331dc2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6313bf1d51d2b8fa2130c3642543192d') in 0.015388 seconds 
+  Import took 0.021544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/黄阿姨家室内/12.png
+  artifactKey: Guid(83fc644f39d4b4547a77c8e5a9863560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/12.png using Guid(83fc644f39d4b4547a77c8e5a9863560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaf0f953dab48da285c05b959f290ff') in 0.030421 seconds 
+  Import took 0.035895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Sprites/黄阿姨家室内/7.png
+  artifactKey: Guid(7b8949d8c8e602344b106859cd88f9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/7.png using Guid(7b8949d8c8e602344b106859cd88f9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f70fc912498c826a9ec124c2b6180a3') in 0.018966 seconds 
+  Import took 0.025395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/黄阿姨家室内/9.png
+  artifactKey: Guid(89ac3bb0002fb1f4cb6a619ccf557f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/9.png using Guid(89ac3bb0002fb1f4cb6a619ccf557f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25aceac304867140fb4b77e6e01321e') in 0.020098 seconds 
+  Import took 0.026279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/黄阿姨家室内/2.png
+  artifactKey: Guid(00352766294ab074f8a2ef4aa911d6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/2.png using Guid(00352766294ab074f8a2ef4aa911d6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460e913ab682f50038d1797b7295f00d') in 0.023746 seconds 
+  Import took 0.029799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/黄阿姨家室内/8.png
+  artifactKey: Guid(30d5d66428926654695a1f4654839f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/8.png using Guid(30d5d66428926654695a1f4654839f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efef96180cb6c3aebad85506514270b1') in 0.019565 seconds 
+  Import took 0.026116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprites/黄阿姨家室内/4.png
+  artifactKey: Guid(afb3e1a0652cca14ea9b22fec836808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/4.png using Guid(afb3e1a0652cca14ea9b22fec836808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75475f446b1c12cf3227846defc797fa') in 0.017099 seconds 
+  Import took 0.023446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Sprites/黄阿姨家室内/11.png
+  artifactKey: Guid(feb6ebab4014aaf44873663d4334fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/11.png using Guid(feb6ebab4014aaf44873663d4334fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b5566030d3392ed229fa1c0a5ddcc5') in 0.022286 seconds 
+  Import took 0.028727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13811.981745 seconds.
+  path: Assets/Sprites/黄阿姨家室内/1 1.png
+  artifactKey: Guid(708c86d17d75cc54290a3a6421a95d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/1 1.png using Guid(708c86d17d75cc54290a3a6421a95d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0b8805919effb9a40c1fd0beeaf8ad') in 0.078631 seconds 
+  Import took 0.158582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Sprites/黄阿姨家室内/3 1.png
+  artifactKey: Guid(89b51019500486d46bad79227627b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/3 1.png using Guid(89b51019500486d46bad79227627b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2bc9e44a3f0d9004de9b93e6efb2bd') in 0.017755 seconds 
+  Import took 0.023912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/黄阿姨家室内/5 1.png
+  artifactKey: Guid(6f94d998424ddf04885ffa85618a2b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/5 1.png using Guid(6f94d998424ddf04885ffa85618a2b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d28bc3fa490a7fdc33ce92811d401e2') in 0.016357 seconds 
+  Import took 0.021881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Sprites/黄阿姨家室内/2 1.png
+  artifactKey: Guid(f612eb2e348eb1b4889f04e897c1fe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/2 1.png using Guid(f612eb2e348eb1b4889f04e897c1fe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a351fd7abc73dccd3ab7b64a3e61d4') in 0.018949 seconds 
+  Import took 0.026749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/黄阿姨家室内/4 1.png
+  artifactKey: Guid(01f4e5e1cee6e304196cfef9ab1d87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/4 1.png using Guid(01f4e5e1cee6e304196cfef9ab1d87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6ce09b2d71aa5fbc86d01b8e15f6f3') in 0.036453 seconds 
+  Import took 0.043465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.675249 seconds.
+  path: Assets/Sprites/黄阿姨家室内/1 1.png
+  artifactKey: Guid(708c86d17d75cc54290a3a6421a95d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/1 1.png using Guid(708c86d17d75cc54290a3a6421a95d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ecc354fd3bffc8a0cc9e20c227d19') in 0.018850 seconds 
+  Import took 0.026508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprites/黄阿姨家室内/3 1.png
+  artifactKey: Guid(89b51019500486d46bad79227627b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/3 1.png using Guid(89b51019500486d46bad79227627b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d0da76622442fc7dec3d1f0f70315e') in 0.016877 seconds 
+  Import took 0.025135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sprites/黄阿姨家室内/5 1.png
+  artifactKey: Guid(6f94d998424ddf04885ffa85618a2b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/5 1.png using Guid(6f94d998424ddf04885ffa85618a2b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00780528ffadf0451c49245cc478904') in 0.024288 seconds 
+  Import took 0.031312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Sprites/黄阿姨家室内/2 1.png
+  artifactKey: Guid(f612eb2e348eb1b4889f04e897c1fe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/2 1.png using Guid(f612eb2e348eb1b4889f04e897c1fe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928b460b13bd7ab87de4c09a2c8bc905') in 0.016871 seconds 
+  Import took 0.023634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sprites/黄阿姨家室内/4 1.png
+  artifactKey: Guid(01f4e5e1cee6e304196cfef9ab1d87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/黄阿姨家室内/4 1.png using Guid(01f4e5e1cee6e304196cfef9ab1d87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255acbeb35da362ead8956a2f0dc2dd2') in 0.019658 seconds 
+  Import took 0.026211 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

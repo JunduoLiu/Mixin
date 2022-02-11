@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pickable Item
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: base
+    uniqueID: 2083304713
+    locked: 0
+  - name: irregular
+    uniqueID: 3552777227
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: item
+    uniqueID: 3648899043
+    locked: 0
+  - name: PLAYER
+    uniqueID: 1171322579
+    locked: 0
+  - name: UI
+    uniqueID: 26257409
+    locked: 0

@@ -1,0 +1,1347 @@
+fileFormatVersion: 2
+guid: bd4ee289c3f3a9b42bfd4669294ccfaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5704968515025973838
+    second: "\u5C0F\u9547tile1_0"
+  - first:
+      213: -4623403387516219264
+    second: "\u5C0F\u9547tile1_1"
+  - first:
+      213: 6904615460219936988
+    second: "\u5C0F\u9547tile1_2"
+  - first:
+      213: -3707752006887057427
+    second: "\u5C0F\u9547tile1_3"
+  - first:
+      213: 8318252802486141927
+    second: "\u5C0F\u9547tile1_4"
+  - first:
+      213: -4677435396566425329
+    second: "\u5C0F\u9547tile1_5"
+  - first:
+      213: 4800196653580718107
+    second: "\u5C0F\u9547tile1_6"
+  - first:
+      213: -1181916415973583119
+    second: "\u5C0F\u9547tile1_7"
+  - first:
+      213: -1446687910685166186
+    second: "\u5C0F\u9547tile1_8"
+  - first:
+      213: 2565981192966553015
+    second: "\u5C0F\u9547tile1_9"
+  - first:
+      213: -3863269750147188424
+    second: "\u5C0F\u9547tile1_10"
+  - first:
+      213: 6531140002068496256
+    second: "\u5C0F\u9547tile1_11"
+  - first:
+      213: -1243918476625915848
+    second: "\u5C0F\u9547tile1_12"
+  - first:
+      213: -2678851686161252852
+    second: "\u5C0F\u9547tile1_13"
+  - first:
+      213: -8956382748515685209
+    second: "\u5C0F\u9547tile1_14"
+  - first:
+      213: -6883077256112172206
+    second: "\u5C0F\u9547tile1_15"
+  - first:
+      213: 2761962059966761130
+    second: "\u5C0F\u9547tile1_16"
+  - first:
+      213: -5568743515864029763
+    second: "\u5C0F\u9547tile1_17"
+  - first:
+      213: 7407976414735870830
+    second: "\u5C0F\u9547tile1_18"
+  - first:
+      213: 4221531446971315277
+    second: "\u5C0F\u9547tile1_19"
+  - first:
+      213: -3898820209709435102
+    second: "\u5C0F\u9547tile1_20"
+  - first:
+      213: 792275487832770118
+    second: "\u5C0F\u9547tile1_21"
+  - first:
+      213: -5987691197660544513
+    second: "\u5C0F\u9547tile1_22"
+  - first:
+      213: -8207489309081975701
+    second: "\u5C0F\u9547tile1_23"
+  - first:
+      213: -7154378515792445397
+    second: "\u5C0F\u9547tile1_24"
+  - first:
+      213: -2523516828906897899
+    second: "\u5C0F\u9547tile1_25"
+  - first:
+      213: -4232732042515568960
+    second: "\u5C0F\u9547tile1_26"
+  - first:
+      213: -3647566788308582391
+    second: "\u5C0F\u9547tile1_27"
+  - first:
+      213: 5391092630025554134
+    second: "\u5C0F\u9547tile1_28"
+  - first:
+      213: -3614107550414386127
+    second: "\u5C0F\u9547tile1_29"
+  - first:
+      213: 7145184443161705748
+    second: "\u5C0F\u9547tile1_30"
+  - first:
+      213: 7011949791925189659
+    second: "\u5C0F\u9547tile1_31"
+  - first:
+      213: 8774751840887260567
+    second: "\u5C0F\u9547tile1_32"
+  - first:
+      213: -4977541314089538646
+    second: "\u5C0F\u9547tile1_33"
+  - first:
+      213: -1051112850753917019
+    second: "\u5C0F\u9547tile1_34"
+  - first:
+      213: 1535861019905322371
+    second: "\u5C0F\u9547tile1_35"
+  - first:
+      213: 395318059979944523
+    second: "\u5C0F\u9547tile1_36"
+  - first:
+      213: -3787508392293499284
+    second: "\u5C0F\u9547tile1_37"
+  - first:
+      213: 47371110453507258
+    second: "\u5C0F\u9547tile1_38"
+  - first:
+      213: -1995224658411462929
+    second: "\u5C0F\u9547tile1_39"
+  - first:
+      213: 5286090393218372666
+    second: "\u5C0F\u9547tile1_40"
+  - first:
+      213: -6911914119043562317
+    second: "\u5C0F\u9547tile1_41"
+  - first:
+      213: -5030745280720431251
+    second: "\u5C0F\u9547tile1_42"
+  - first:
+      213: 2016502291669199799
+    second: "\u5C0F\u9547tile1_43"
+  - first:
+      213: 7879651734269028655
+    second: "\u5C0F\u9547tile1_44"
+  - first:
+      213: 1149401498458108870
+    second: Jindong TIle_0
+  - first:
+      213: -3193159689057912848
+    second: Jindong TIle_1
+  - first:
+      213: 5030878370088988411
+    second: Jindong TIle_2
+  - first:
+      213: -2121574653878507563
+    second: Jindong TIle_3
+  - first:
+      213: -7784352509145371100
+    second: Jindong TIle_4
+  - first:
+      213: 7661430206477316313
+    second: Jindong TIle_5
+  - first:
+      213: -4036021193273757022
+    second: Jindong TIle_6
+  - first:
+      213: 6667147095504716130
+    second: Jindong TIle_7
+  - first:
+      213: -2353460832445704295
+    second: Jindong TIle_8
+  - first:
+      213: -4213773043640671357
+    second: Jindong TIle_9
+  - first:
+      213: 7143685189298471546
+    second: Jindong TIle_10
+  - first:
+      213: -7148315453029355919
+    second: Jindong TIle_11
+  - first:
+      213: 6642959247404556790
+    second: Jindong TIle_12
+  - first:
+      213: -1995268306746567551
+    second: Jindong TIle_13
+  - first:
+      213: 7980659849250371700
+    second: Jindong TIle_14
+  - first:
+      213: 3023520323904375708
+    second: Jindong TIle_15
+  - first:
+      213: 4217053958157230617
+    second: Jindong TIle_16
+  - first:
+      213: -2956422458981502652
+    second: Jindong TIle_17
+  - first:
+      213: -5918601011331221132
+    second: Jindong TIle_18
+  - first:
+      213: 4354124250162953165
+    second: Jindong TIle_19
+  - first:
+      213: 7401090326340817883
+    second: Jindong TIle_20
+  - first:
+      213: 2528407682169559858
+    second: Jindong TIle_21
+  - first:
+      213: -6516215186969058993
+    second: Jindong TIle_22
+  - first:
+      213: -2474477205870904875
+    second: Jindong TIle_23
+  - first:
+      213: 1467649053980207706
+    second: Jindong TIle_24
+  - first:
+      213: 6837892271437693615
+    second: Jindong TIle_25
+  - first:
+      213: -65528950600470873
+    second: Jindong TIle_26
+  - first:
+      213: -6574400854946415252
+    second: Jindong TIle_27
+  - first:
+      213: 8189280330766193210
+    second: Jindong TIle_28
+  - first:
+      213: 5881063576773387735
+    second: Jindong TIle_29
+  - first:
+      213: 164216699923757493
+    second: Jindong TIle_30
+  - first:
+      213: 833447869943473226
+    second: Jindong TIle_31
+  - first:
+      213: 8462870165916954945
+    second: Jindong TIle_32
+  - first:
+      213: 7077630964450621991
+    second: Jindong TIle_33
+  - first:
+      213: 1830982292593674552
+    second: Jindong TIle_34
+  - first:
+      213: -8065838306066392175
+    second: Jindong TIle_35
+  - first:
+      213: -9167657115921739535
+    second: Jindong TIle_36
+  - first:
+      213: 892030328185179089
+    second: Jindong TIle_37
+  - first:
+      213: -5353764237805578292
+    second: Jindong TIle_38
+  - first:
+      213: -1124110301755847612
+    second: Jindong TIle_39
+  - first:
+      213: -7434625030644194970
+    second: Jindong TIle_40
+  - first:
+      213: 7042538529687861370
+    second: Jindong TIle_41
+  - first:
+      213: -8864078221631838608
+    second: Jindong TIle_42
+  - first:
+      213: -3155856154448156794
+    second: Jindong TIle_43
+  - first:
+      213: -1621416189116046438
+    second: Jindong TIle_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jindong TIle_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 796
+        width: 129
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3b5e3b29e73ff00800000000000000
+      internalID: 1149401498458108870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 797
+        width: 129
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f73b9e4e2e9fa3d0800000000000000
+      internalID: -3193159689057912848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 797
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfea95d093541d540800000000000000
+      internalID: 5030878370088988411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 794
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d76917c717ae82e0800000000000000
+      internalID: -2121574653878507563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_4
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 795
+        width: 131
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e28fdd2ac68f390800000000000000
+      internalID: -7784352509145371100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_5
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 796
+        width: 131
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d037884e2ed25a60800000000000000
+      internalID: 7661430206477316313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_6
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 800
+        width: 131
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a238f4cb1c2df7c0800000000000000
+      internalID: -4036021193273757022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 724
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26106d495f6768c50800000000000000
+      internalID: 6667147095504716130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_8
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 726
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997574197d3d65fd0800000000000000
+      internalID: -2353460832445704295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_9
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 725
+        width: 131
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3836ea90ebba585c0800000000000000
+      internalID: -4213773043640671357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 727
+        width: 129
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72ca5fa4d7732360800000000000000
+      internalID: 7143685189298471546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_11
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 729
+        width: 131
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17eefb708f41ccc90800000000000000
+      internalID: -7148315453029355919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_12
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 727
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1e1f65d38803c50800000000000000
+      internalID: 6642959247404556790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 658
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18496c0eb026f44e0800000000000000
+      internalID: -1995268306746567551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 659
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4787acb79dff0ce60800000000000000
+      internalID: 7980659849250371700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_15
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 659
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b8e7d17b3b5f920800000000000000
+      internalID: 3023520323904375708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_16
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 659
+        width: 125
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912ed966b3cf58a30800000000000000
+      internalID: 4217053958157230617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_17
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 659
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441bb66ff6da8f6d0800000000000000
+      internalID: -2956422458981502652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_18
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 658
+        width: 129
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479b5500db7ecdda0800000000000000
+      internalID: -5918601011331221132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_19
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 587
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb70e6bfe4fc6c30800000000000000
+      internalID: 4354124250162953165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_20
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 589
+        width: 128
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3df1c6074f5b660800000000000000
+      internalID: 7401090326340817883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_21
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 590
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bd51f0465b61320800000000000000
+      internalID: 2528407682169559858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_22
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 590
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4124b4dfc0c195a0800000000000000
+      internalID: -6516215186969058993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_23
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 591
+        width: 130
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d973437714e8add0800000000000000
+      internalID: -2474477205870904875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_24
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 590
+        width: 131
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aad65e9032e5410800000000000000
+      internalID: 1467649053980207706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 519
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ce6bcac215ee50800000000000000
+      internalID: 6837892271437693615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_26
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 518
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae64f044c1371ff0800000000000000
+      internalID: -65528950600470873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_27
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 520
+        width: 125
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6df4ed414903c4a0800000000000000
+      internalID: -6574400854946415252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_28
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 518
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a329969721b26a170800000000000000
+      internalID: 8189280330766193210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_29
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 520
+        width: 131
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5e013f92cbd9150800000000000000
+      internalID: 5881063576773387735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_30
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 522
+        width: 131
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b97421f73a674200800000000000000
+      internalID: 164216699923757493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 445
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4469c20c60019b00800000000000000
+      internalID: 833447869943473226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_32
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 445
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1413bb3e397227570800000000000000
+      internalID: 8462870165916954945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_33
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 446
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a726ffcdbc83260800000000000000
+      internalID: 7077630964450621991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 446
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8398314b1b4f86910800000000000000
+      internalID: 1830982292593674552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_35
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 450
+        width: 132
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b9c279bc2601090800000000000000
+      internalID: -8065838306066392175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_36
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 377
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f017e6ec60f5c080800000000000000
+      internalID: -9167657115921739535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 375
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db4a587bd0216c00800000000000000
+      internalID: 892030328185179089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_38
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 374
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7986a8acb93b5b0800000000000000
+      internalID: -5353764237805578292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_39
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 373
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c4c77e2ab5660f0800000000000000
+      internalID: -1124110301755847612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 305
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a93acce7e2d890800000000000000
+      internalID: -7434625030644194970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_41
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 305
+        width: 128
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78fb03da7f1cb160800000000000000
+      internalID: 7042538529687861370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_42
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 302
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076ab5242d77cf480800000000000000
+      internalID: -8864078221631838608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_43
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 304
+        width: 129
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68723e74c852434d0800000000000000
+      internalID: -3155856154448156794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jindong TIle_44
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 302
+        width: 129
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93abae01929f79e0800000000000000
+      internalID: -1621416189116046438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
