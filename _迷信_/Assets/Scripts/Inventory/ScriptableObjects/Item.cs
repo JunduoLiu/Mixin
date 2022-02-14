@@ -20,6 +20,8 @@ public abstract class Item : ScriptableObject
     [TextArea(15,20)]
     public string itemDesc;
 
+    public string test;
+
     // Not sure if necessary
     // public bool IsStackable()
     // {
