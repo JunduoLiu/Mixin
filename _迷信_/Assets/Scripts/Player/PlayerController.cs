@@ -67,12 +67,12 @@ public class PlayerController : MonoBehaviour
 			isFrozen = inventoryUI.activeSelf;
 		}
 
-		if (Input.GetKeyDown(KeyCode.LeftBracket)){
-			inventory.Save();
-		}
-		if (Input.GetKeyDown(KeyCode.RightBracket)){
-			inventory.Load();
-		}
+		// if (Input.GetKeyDown(KeyCode.LeftBracket)){
+		// 	inventory.Save();
+		// }
+		// if (Input.GetKeyDown(KeyCode.RightBracket)){
+		// 	inventory.Load();
+		// }
     }
 
     void ProcessInputs(){
