@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd237cbdd6404171b43faf7c2b45c9b, type: 3}
   m_Name: StolenLighter
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 0608ad7a1f4150d48a238e93d27d3b5e, type: 3}
+  sprite: {fileID: 5253162343287518999, guid: 5817e90644f0e4bffb15a24002b5c030, type: 3}
   Id: 2
   itemType: 1
   itemName: "\u6253\u706B\u673A"
