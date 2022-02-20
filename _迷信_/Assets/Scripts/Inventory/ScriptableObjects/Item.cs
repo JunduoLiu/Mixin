@@ -13,15 +13,17 @@ public enum ItemType {
 public abstract class Item : ScriptableObject
 {
     public Sprite sprite;
-    public int Id; // What does this do eventually?
+    public int id; // What does this do eventually?
 
     public ItemType itemType;
     public string itemName;
     [TextArea(15,20)]
     public string itemDesc;
 
-    public string test;
-
+    public string ItemDescription()
+    {
+        return itemDesc;
+    }
     // Not sure if necessary
     // public bool IsStackable()
     // {

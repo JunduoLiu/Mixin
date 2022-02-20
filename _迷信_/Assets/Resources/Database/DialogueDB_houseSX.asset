@@ -553,7 +553,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "\u786E\u5B9A\u51FA\u95E8\u5417\uFF1F"
+        value: "\u4F60\u8981\u51FA\u95E8\u5417\uFF1F"
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical

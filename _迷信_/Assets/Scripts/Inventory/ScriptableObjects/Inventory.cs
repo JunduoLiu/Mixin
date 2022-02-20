@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEditor;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -14,9 +15,9 @@ public class Inventory : ScriptableObject
     public string savePath;
     public ItemDatabase database;
     public InventoryContainer Container;
-    public event EventHandler OnItemListChanged;
+    public InventoryUpdateEvent InventoryUpdated;
 
-    // private void OnEnable()
+    // void OnEnable()
     // {
     // #if UNITY_EDITOR
     //     database = (ItemDatabase)AssetDatabase.LoadAssetAtPath("Assets/Resources/Database/PlayerItemDatabase.asset", typeof(ItemDatabase));
@@ -25,35 +26,66 @@ public class Inventory : ScriptableObject
     // #endif
     // }
 
+    void Awake()
+    {
+        if (InventoryUpdated == null)
+        {
+            InventoryUpdated = new InventoryUpdateEvent();
+        }
+    }
+
+    void Start()
+    {
+
+    }
+
     public void AddItem(Item _item, int _amount)
     {
         for (int i = 0; i < Container.ItemList.Length; i++)
         {
-            if(Container.ItemList[i].item == _item)
+            if(Container.ItemList[i].id == _item.id)
             {
-                Container.ItemList[i].AddAmount(_amount);
-                OnItemListChanged?.Invoke(this, EventArgs.Empty);
+                Container.ItemList[i].amount += _amount;
+                InventoryUpdated.Invoke(Container.ItemList[i]);
                 return;
             }
         }
-        SetFirstEmptySlot(_item, _amount);
+        InventorySlot firstEmptySlot = SetFirstEmptySlot(_item, _amount);
+        if (firstEmptySlot != null)
+        {
+            InventoryUpdated.Invoke(firstEmptySlot);
+        } else {
+            // alert full inventory
+        }
 
-        OnItemListChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public void RemoveItem(Item _item, int _amount)
     {
         Debug.Log("Remove Item. Implementing...");
-        OnItemListChanged?.Invoke(this, EventArgs.Empty);
+        for (int i = 0; i < Container.ItemList.Length; i++)
+        {
+            if(Container.ItemList[i].id == _item.id)
+            {
+                Container.ItemList[i].amount -= _amount;
+                if (Container.ItemList[i].amount == 0)
+                {
+                    Container.ItemList[i].id = -1;
+                }
+                InventoryUpdated.Invoke(Container.ItemList[i]);
+                return;
+            }
+        }
+        // ItemRemoved.Invoke(slot, _amount);
     }
 
     public InventorySlot SetFirstEmptySlot(Item _item, int _amount)
     {
         for (int i = 0; i < Container.ItemList.Length; i++)
         {
-            if (Container.ItemList[i].ID <= -1)
+            if (Container.ItemList[i].id <= -1)
             {
-                Container.ItemList[i].UpdateSlot(_item.Id, _item, _amount);
+                Container.ItemList[i].UpdateSlot(_item.id, _amount);
                 return Container.ItemList[i];
             }
         }
@@ -109,7 +141,7 @@ public class Inventory : ScriptableObject
     // public void OnAfterDeserialize()
     // {
     //     for (int i = 0; i < Container.ItemList.Count; i++)
-    //         Container.ItemList[i].item = database.GetItem[Container.ItemList[i].ID];
+    //         Container.ItemList[i].item = database.GetItem[Container.ItemList[i].id];
     // }
     //
     // public void OnBeforeSerialize()
@@ -122,40 +154,41 @@ public class Inventory : ScriptableObject
 [System.Serializable]
 public class InventoryContainer
 {
-    public InventorySlot[] ItemList = new InventorySlot[24];
+    public InventorySlot[] ItemList;
+
+    public InventoryContainer()
+    {
+        ItemList = new InventorySlot[24];
+    }
 }
 
 [System.Serializable]
 public class InventorySlot
 {
-    public int ID;
-    public Item item;
+    public int id;
     public int amount;
+
     public InventorySlot()
     {
-        ID = -1;
-        item = null;
+        id = -1;
         amount = 0;
     }
-    public InventorySlot(int _id, Item _item, int _amount)
+    public InventorySlot(int _id, int _amount)
     {
-        ID = _id;
-        item = _item;
+        id = _id;
         amount = _amount;
     }
 
-
-    public void AddAmount(int value)
+    public void UpdateSlot(int _id, int _amount)
     {
-        amount += value;
-    }
-
-    public void UpdateSlot(int _id, Item _item, int _amount)
-    {
-        ID = _id;
-        item = _item;
+        id = _id;
         amount = _amount;
     }
+}
+
+[System.Serializable]
+public class InventoryUpdateEvent : UnityEvent<InventorySlot>
+{
 }
 
 // public class InventoryItem

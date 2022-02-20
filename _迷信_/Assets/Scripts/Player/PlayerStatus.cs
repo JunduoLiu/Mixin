@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using System;
 
@@ -25,14 +26,14 @@ public class PlayerStatus : MonoBehaviour
 
     private void Start()
     {
-        statusValue.IntVariableChanged += OnValueChanged;
+        statusValue.IntVariableChanged.AddListener(OnValueChanged);
     }
 
 
-    void OnValueChanged(object sender, EventArgs e)
+    void OnValueChanged()
     {
         UpdateValue();
     }
 
-    
+
 }

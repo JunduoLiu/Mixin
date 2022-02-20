@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cd237cbdd6404171b43faf7c2b45c9b, type: 3}
-  m_Name: StolenPencil
+  m_Name: StolenHairband
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: f4e84e8d3ff9fea459ad0d59837fd728, type: 3}
+  sprite: {fileID: 4706449272450852083, guid: 5817e90644f0e4bffb15a24002b5c030, type: 3}
   Id: 3
   itemType: 1
-  itemName: "\u94C5\u7B14"
-  itemDesc: "\u53EA\u5269\u534A\u622A\u76842B\u94C5\u7B14"
+  itemName: "\u6A61\u76AE\u7B4B"
+  itemDesc: "\u4E0D\u77E5\u9053\u8C01\u7684\u5730\u644A\u6A61\u76AE\u7B4B"
   stolenScene: 0
