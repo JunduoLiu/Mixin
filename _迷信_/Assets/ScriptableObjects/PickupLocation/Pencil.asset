@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Pencil
   m_EditorClassIdentifier: 
   s_item: {fileID: 11400000, guid: fc17e94dee343496ab8feebff95309a9, type: 2}
-  hasPickedUp: 1
+  hasPickedUp: 0

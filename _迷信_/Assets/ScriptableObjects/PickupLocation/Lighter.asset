@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Lighter
   m_EditorClassIdentifier: 
   s_item: {fileID: 11400000, guid: 265448817007c43c1926f532663f6d05, type: 2}
-  hasPickedUp: 1
+  hasPickedUp: 0

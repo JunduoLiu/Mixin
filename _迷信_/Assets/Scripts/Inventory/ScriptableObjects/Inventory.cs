@@ -3,7 +3,6 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEditor;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -15,9 +14,9 @@ public class Inventory : ScriptableObject
     public string savePath;
     public ItemDatabase database;
     public InventoryContainer Container;
-    public InventoryUpdateEvent InventoryUpdated;
+    public event EventHandler OnItemListChanged;
 
-    // void OnEnable()
+    // private void OnEnable()
     // {
     // #if UNITY_EDITOR
     //     database = (ItemDatabase)AssetDatabase.LoadAssetAtPath("Assets/Resources/Database/PlayerItemDatabase.asset", typeof(ItemDatabase));
@@ -26,109 +25,62 @@ public class Inventory : ScriptableObject
     // #endif
     // }
 
-    void Awake()
-    {
-        if (InventoryUpdated == null)
-        {
-            InventoryUpdated = new InventoryUpdateEvent();
-        }
-    }
-
-    void Start()
-    {
-
-    }
-
     public void AddItem(Item _item, int _amount)
     {
-        for (int i = 0; i < Container.ItemList.Length; i++)
+        for (int i = 0; i < Container.ItemList.Count; i++)
         {
-            if(Container.ItemList[i].id == _item.id)
+            if(Container.ItemList[i].item == _item)
             {
-                Container.ItemList[i].amount += _amount;
-                InventoryUpdated.Invoke(Container.ItemList[i]);
+                Container.ItemList[i].AddAmount(_amount);
                 return;
             }
         }
-        InventorySlot firstEmptySlot = SetFirstEmptySlot(_item, _amount);
-        if (firstEmptySlot != null)
-        {
-            InventoryUpdated.Invoke(firstEmptySlot);
-        } else {
-            // alert full inventory
-        }
+        Container.ItemList.Add(new InventorySlot(database.GetId[_item], _item, _amount));
 
+        OnItemListChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public void RemoveItem(Item _item, int _amount)
     {
         Debug.Log("Remove Item. Implementing...");
-        for (int i = 0; i < Container.ItemList.Length; i++)
-        {
-            if(Container.ItemList[i].id == _item.id)
-            {
-                Container.ItemList[i].amount -= _amount;
-                if (Container.ItemList[i].amount == 0)
-                {
-                    Container.ItemList[i].id = -1;
-                }
-                InventoryUpdated.Invoke(Container.ItemList[i]);
-                return;
-            }
-        }
-        // ItemRemoved.Invoke(slot, _amount);
+        OnItemListChanged?.Invoke(this, EventArgs.Empty);
     }
-
-    public InventorySlot SetFirstEmptySlot(Item _item, int _amount)
-    {
-        for (int i = 0; i < Container.ItemList.Length; i++)
-        {
-            if (Container.ItemList[i].id <= -1)
-            {
-                Container.ItemList[i].UpdateSlot(_item.id, _amount);
-                return Container.ItemList[i];
-            }
-        }
-        return null; // inventory is full
-    }
-
-    // Don't need to save Scriptable Objects in runtime
 
     // 在Editor里选中Inventory Asset后，点击Inspector里的齿轮图标-Save可以手动保存
-    // [ContextMenu("Save")]
-    // public void Save()
-    // {
-    //     /* 这样的话玩家可以自行修改本地Json文件
-    //     // string saveData = JsonUtility.ToJson(this, true);
-    //     // BinaryFormatter bf = new BinaryFormatter();
-    //     // FileStream file = File.Create(string.Concat(Application.persistentDataPath, savePath));
-    //     // bf.Serialize(file, saveData);
-    //     // file.Close();
-    //     */
-    //
-    //     IFormatter formatter = new BinaryFormatter();
-    //     Stream stream = new FileStream(string.Concat(Application.persistentDataPath, savePath), FileMode.Create, FileAccess.Write);
-    //     formatter.Serialize(stream, Container);
-    //     stream.Close();
-    // }
-    //
-    // [ContextMenu("Load")]
-    // public void Load()
-    // {
-    //     if(File.Exists(string.Concat(Application.persistentDataPath, savePath))){
-    //         /* 这样的话玩家可以自行修改Json文件
-    //         BinaryFormatter bf = new BinaryFormatter();
-    //         FileStream file = File.Open(string.Concat(Application.persistentDataPath, savePath), FileMode.Open);
-    //         JsonUtility.FromJsonOverwrite(bf.Deserialize(file).ToString(), this);
-    //         file.Close();
-    //         */
-    //
-    //         IFormatter formatter = new BinaryFormatter();
-    //         Stream stream = new FileStream(string.Concat(Application.persistentDataPath, savePath), FileMode.Open, FileAccess.Read);
-    //         Container = (InventoryContainer)formatter.Deserialize(stream);
-    //         stream.Close();
-    //     }
-    // }
+    [ContextMenu("Save")]
+    public void Save()
+    {
+        /* 这样的话玩家可以自行修改本地Json文件
+        // string saveData = JsonUtility.ToJson(this, true);
+        // BinaryFormatter bf = new BinaryFormatter();
+        // FileStream file = File.Create(string.Concat(Application.persistentDataPath, savePath));
+        // bf.Serialize(file, saveData);
+        // file.Close();
+        */
+
+        IFormatter formatter = new BinaryFormatter();
+        Stream stream = new FileStream(string.Concat(Application.persistentDataPath, savePath), FileMode.Create, FileAccess.Write);
+        formatter.Serialize(stream, Container);
+        stream.Close();
+    }
+
+    [ContextMenu("Load")]
+    public void Load()
+    {
+        if(File.Exists(string.Concat(Application.persistentDataPath, savePath))){
+            /* 这样的话玩家可以自行修改Json文件
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(string.Concat(Application.persistentDataPath, savePath), FileMode.Open);
+            JsonUtility.FromJsonOverwrite(bf.Deserialize(file).ToString(), this);
+            file.Close();
+            */
+
+            IFormatter formatter = new BinaryFormatter();
+            Stream stream = new FileStream(string.Concat(Application.persistentDataPath, savePath), FileMode.Open, FileAccess.Read);
+            Container = (InventoryContainer)formatter.Deserialize(stream);
+            stream.Close();
+        }
+    }
 
     [ContextMenu("Clear")]
     public void Clear()
@@ -141,7 +93,7 @@ public class Inventory : ScriptableObject
     // public void OnAfterDeserialize()
     // {
     //     for (int i = 0; i < Container.ItemList.Count; i++)
-    //         Container.ItemList[i].item = database.GetItem[Container.ItemList[i].id];
+    //         Container.ItemList[i].item = database.GetItem[Container.ItemList[i].ID];
     // }
     //
     // public void OnBeforeSerialize()
@@ -154,41 +106,26 @@ public class Inventory : ScriptableObject
 [System.Serializable]
 public class InventoryContainer
 {
-    public InventorySlot[] ItemList;
-
-    public InventoryContainer()
-    {
-        ItemList = new InventorySlot[24];
-    }
+    public List<InventorySlot> ItemList = new List<InventorySlot>();
 }
 
 [System.Serializable]
 public class InventorySlot
 {
-    public int id;
+    public int ID;
+    public Item item;
     public int amount;
-
-    public InventorySlot()
+    public InventorySlot(int _id, Item _item, int _amount)
     {
-        id = -1;
-        amount = 0;
-    }
-    public InventorySlot(int _id, int _amount)
-    {
-        id = _id;
+        ID = _id;
+        item = _item;
         amount = _amount;
     }
 
-    public void UpdateSlot(int _id, int _amount)
+    public void AddAmount(int value)
     {
-        id = _id;
-        amount = _amount;
+        amount += value;
     }
-}
-
-[System.Serializable]
-public class InventoryUpdateEvent : UnityEvent<InventorySlot>
-{
 }
 
 // public class InventoryItem

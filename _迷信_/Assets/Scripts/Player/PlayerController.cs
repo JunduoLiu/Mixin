@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using CodeMonkey.Utils;
 using System;
 
@@ -33,6 +32,8 @@ public class PlayerController : MonoBehaviour
 
 	[Space]
 	[Header("Player Status:")]
+	//public PlayerStatus reputationStatus;
+	//public PlayerStatus moralStatus;
 	public IntVariable iReputation;
 	public IntVariable iMoral;
 	public int pickupPunish;
@@ -44,12 +45,12 @@ public class PlayerController : MonoBehaviour
 		isFrozen = false;
 	}
 
-    void Start()
+    private void Start()
     {
-		iReputation.IntVariableReachedZero.AddListener(OnReputationReachedZero);
-		iMoral.IntVariableReachedZero.AddListener(OnMoralReachedZero);
-		iReputation.IntVariableChanged.AddListener(OnReputationChanged);
-		iMoral.IntVariableChanged.AddListener(OnMoralChanged);
+		iReputation.IntVariableReachedZero += OnReputationReachedZero;
+		iMoral.IntVariableReachedZero += OnMoralReachedZero;
+		iReputation.IntVariableChanged += OnReputationChanged;
+		iMoral.IntVariableChanged += OnMoralChanged;
 	}
 
     void Update()
@@ -66,12 +67,12 @@ public class PlayerController : MonoBehaviour
 			isFrozen = inventoryUI.activeSelf;
 		}
 
-		// if (Input.GetKeyDown(KeyCode.LeftBracket)){
-		// 	inventory.Save();
-		// }
-		// if (Input.GetKeyDown(KeyCode.RightBracket)){
-		// 	inventory.Load();
-		// }
+		if (Input.GetKeyDown(KeyCode.LeftBracket)){
+			inventory.Save();
+		}
+		if (Input.GetKeyDown(KeyCode.RightBracket)){
+			inventory.Load();
+		}
     }
 
     void ProcessInputs(){
@@ -85,16 +86,16 @@ public class PlayerController : MonoBehaviour
     }
 
     void Animate(){
-		animator.SetFloat("AniMoveX", movementDirection.x);
-	    animator.SetFloat("AniMoveY", movementDirection.y);
+			animator.SetFloat("AniMoveX", movementDirection.x);
+      animator.SetFloat("AniMoveY", movementDirection.y);
     }
 
-	void OnReputationChanged()
+	void OnReputationChanged(object sender, EventArgs e)
     {
 		Debug.Log("名誉值产生了变化");
     }
 
-	void OnMoralChanged()
+	void OnMoralChanged(object sender, EventArgs e)
 	{
 		Debug.Log("道德值产生了变化");
 	}
@@ -102,7 +103,7 @@ public class PlayerController : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D _collider)
 	{
         PickupTrigger trigger = _collider.GetComponent<PickupTrigger>();
-        if (trigger != null && !trigger.HasPickedUp())
+        if (trigger && !trigger.HasPickedUp())
         {
             System.Random rand = new System.Random();
 			float f = (float)rand.NextDouble();
@@ -119,12 +120,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-	void OnReputationReachedZero()
+	void OnReputationReachedZero(object sender, EventArgs e)
     {
 		// GG
     }
 
-	void OnMoralReachedZero()
+	void OnMoralReachedZero(object sender, EventArgs e)
 	{
 		// 说胡话
 	}
@@ -133,6 +134,22 @@ public class PlayerController : MonoBehaviour
     {
 		iMoral.ReduceValue(pickupPunish);
     }
+
+	private void UseItem(Item _item)
+	{
+		switch (_item.itemType)
+		{
+			default:
+			case ItemType.Stolen:
+				// Check if item was taken from the current scene
+				inventory.RemoveItem(_item, 1);
+				break;
+			case ItemType.Quest:
+				// Check if item supposed to use here
+				inventory.RemoveItem(_item, 1);
+				break;
+		}
+	}
 
 	public Vector3 GetPosition() {
         return transform.position;

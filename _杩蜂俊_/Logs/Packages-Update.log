@@ -1,0 +1,19 @@
+
+=== Mon Feb 21 12:18:36 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.lightweight from version 10.7.0 to 10.8.1
+
+=== Mon Feb 21 12:34:58 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ads@3.7.5
+  com.unity.analytics@3.6.12
+  com.unity.purchasing@4.1.2
+  com.unity.xr.legacyinputhelpers@2.1.8

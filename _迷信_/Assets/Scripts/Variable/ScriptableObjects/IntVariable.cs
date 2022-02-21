@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "New Int Variable", menuName = "Variable/Int")]
 public class IntVariable : ScriptableObject, ISerializationCallbackReceiver
@@ -12,21 +11,8 @@ public class IntVariable : ScriptableObject, ISerializationCallbackReceiver
 	[System.NonSerialized]
 	public int RuntimeValue;
 
-	public UnityEvent IntVariableChanged;
-	public UnityEvent IntVariableReachedZero;
-
-	void OnStart()
-    {
-        if (IntVariableChanged == null)
-        {
-            IntVariableChanged = new UnityEvent();
-        }
-
-        if (IntVariableReachedZero == null)
-        {
-            IntVariableReachedZero = new UnityEvent();
-        }
-    }
+	public event EventHandler IntVariableChanged;
+	public event EventHandler IntVariableReachedZero;
 
 	public void OnAfterDeserialize()
 	{
@@ -42,19 +28,14 @@ public class IntVariable : ScriptableObject, ISerializationCallbackReceiver
 	public void AddValue(int _value)
     {
 		RuntimeValue = RuntimeValue + _value < 100 ? RuntimeValue + _value : 100;
-		IntVariableChanged.Invoke();
+		IntVariableChanged(this, EventArgs.Empty);
 	}
 
 	public void ReduceValue(int _value)
 	{
 		RuntimeValue = RuntimeValue > _value ? RuntimeValue - _value : 0;
-
-		if (RuntimeValue == 0)
-		{
-			IntVariableReachedZero.Invoke();
-		}
-
-		IntVariableChanged.Invoke();
+		if (RuntimeValue == 0) { IntVariableReachedZero(this, EventArgs.Empty); }
+		IntVariableChanged(this, EventArgs.Empty);
 	}
 
 }
