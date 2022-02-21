@@ -16,9 +16,54 @@ MonoBehaviour:
   database: {fileID: 11400000, guid: 5615f291fe39844c48051d1a4d42922d, type: 2}
   Container:
     ItemList:
-    - ID: 0
-      item: {fileID: 11400000, guid: 265448817007c43c1926f532663f6d05, type: 2}
-      amount: 2
-    - ID: 1
-      item: {fileID: 11400000, guid: 07b9e16db9fa64a3381ce377dd476bdc, type: 2}
+    - id: 1
       amount: 1
+    - id: 3
+      amount: 2
+    - id: 0
+      amount: 5
+    - id: 2
+      amount: 1
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+    - id: -1
+      amount: 0
+  InventoryUpdated:
+    m_PersistentCalls:
+      m_Calls: []
