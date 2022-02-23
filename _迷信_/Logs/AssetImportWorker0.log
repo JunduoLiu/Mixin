@@ -15,11 +15,11 @@ C:/Users/adouo/Documents/GitHub/Mixin/_迷信_
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61976
+63095
 Successfully changed project path to: C:/Users/adouo/Documents/GitHub/Mixin/_迷信_
 C:/Users/adouo/Documents/GitHub/Mixin/_迷信_
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 122.89 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 131.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1c1 (23c0627a561f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002042 seconds.
+Registered in 0.001956 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 157.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.697 seconds
+- Completed reload, in  0.841 seconds
 Domain Reload Profiling:
-	ReloadAssembly (697ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (842ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (573ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (158ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004964 seconds.
+Registered in 0.003829 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.219 seconds
+- Completed reload, in  1.311 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1220ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1019ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1073ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
+			SetupTypeCache (349ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
+			RebuildScriptCaches (65ms)
 			SetupLoadedEditorAssemblies (432ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 6.36 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3993 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 164.4 MB.
 System memory in use after: 164.6 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4431.
-Total: 3.384000 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.221100 ms MarkObjects: 2.777100 ms  DeleteObjects: 0.096600 ms)
+Total: 5.188800 ms (FindLiveObjects: 0.405300 ms CreateObjectMapping: 0.287100 ms MarkObjects: 4.404600 ms  DeleteObjects: 0.090300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,184 +131,480 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/申信家室内/外屋/mao、sword（package）.png
-  artifactKey: Guid(a1e8c6df64d724f8b8859ba2d3a719ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/mao、sword（package）.png using Guid(a1e8c6df64d724f8b8859ba2d3a719ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb487d84bb6591f5a77551c621b9e1d') in 0.112700 seconds 
-  Import took 0.119616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Sprites/申信家室内/外屋/table.png
-  artifactKey: Guid(b1d0d2593a39042a898b361764177c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/table.png using Guid(b1d0d2593a39042a898b361764177c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387558eabb0d1b161588a7e4e5452cb4') in 0.036025 seconds 
-  Import took 0.043440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
   path: Assets/Sprites/金东村室外/Natural/样书.png
   artifactKey: Guid(f0a96c7e25dcdf6429da25d140d42111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/样书.png using Guid(f0a96c7e25dcdf6429da25d140d42111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948c4fa88b1d1ae838a6294f97e64ebb') in 0.095325 seconds 
-  Import took 0.102207 seconds .
+Start importing Assets/Sprites/金东村室外/Natural/样书.png using Guid(f0a96c7e25dcdf6429da25d140d42111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948c4fa88b1d1ae838a6294f97e64ebb') in 0.253976 seconds 
+  Import took 0.260835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Sprites/申信家室内/外屋/bed.png
-  artifactKey: Guid(7badd1e005b4f4e608b055342c369d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/bed.png using Guid(7badd1e005b4f4e608b055342c369d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2121775af006749de8032bf094bfbbee') in 0.028717 seconds 
-  Import took 0.034143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
+  Time since last request: 0.000322 seconds.
   path: Assets/Sprites/金东村室外/Natural/自然环境物品1.png
   artifactKey: Guid(f6ac344a107f3174a8df14c4022a2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/自然环境物品1.png using Guid(f6ac344a107f3174a8df14c4022a2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8213ae6b058a3fba19bf1296323a42') in 0.076642 seconds 
-  Import took 0.083869 seconds .
+Start importing Assets/Sprites/金东村室外/Natural/自然环境物品1.png using Guid(f6ac344a107f3174a8df14c4022a2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8213ae6b058a3fba19bf1296323a42') in 0.084934 seconds 
+  Import took 0.094776 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Sprites/申信家室内/外屋/scene.png
-  artifactKey: Guid(4e4dc9c713d6b49f4a6c0f0953386693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/scene.png using Guid(4e4dc9c713d6b49f4a6c0f0953386693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93086f7cde1b50293421b966252144e') in 0.031646 seconds 
-  Import took 0.037793 seconds .
+  Time since last request: 0.000355 seconds.
+  path: Assets/Sprites/金东村室外/Natural/麦地.prefab
+  artifactKey: Guid(fe2e9defc365dd0448d2a8e197c0bfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Natural/麦地.prefab using Guid(fe2e9defc365dd0448d2a8e197c0bfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ceb2364642ee1a383eb0439f131df0') in 0.059687 seconds 
+  Import took 0.066514 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Sprites/金东村室外/Natural/石块.png
-  artifactKey: Guid(ee3bc5b5627574470b05e9891e5aef6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/石块.png using Guid(ee3bc5b5627574470b05e9891e5aef6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcea0e1694a1115d41b918d317bcab2') in 0.025053 seconds 
-  Import took 0.031511 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/金东村室外/Natural/杨树.png
+  artifactKey: Guid(c969aaae674e0a3419de377397423106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Natural/杨树.png using Guid(c969aaae674e0a3419de377397423106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310854997d95325e390ea159a0593723') in 0.024380 seconds 
+  Import took 0.032810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Sprites/申信家室内/外屋/door（close）.png
-  artifactKey: Guid(446ebd32a70264586865b6471920fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/door（close）.png using Guid(446ebd32a70264586865b6471920fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9d7c43d1f69f14d79ee52c0d022c9c') in 0.028367 seconds 
-  Import took 0.037814 seconds .
+  Time since last request: 0.000368 seconds.
+  path: Assets/Sprites/金东村室外/Natural/小麦_.png
+  artifactKey: Guid(aced99616afb3844bb7be8d7bbdb79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Natural/小麦_.png using Guid(aced99616afb3844bb7be8d7bbdb79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000360c3ed946b56931e9339582e808d') in 0.030828 seconds 
+  Import took 0.037757 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000328 seconds.
-  path: Assets/Sprites/金东村室外/Natural/麦地.prefab
-  artifactKey: Guid(fe2e9defc365dd0448d2a8e197c0bfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/麦地.prefab using Guid(fe2e9defc365dd0448d2a8e197c0bfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ceb2364642ee1a383eb0439f131df0') in 0.044663 seconds 
-  Import took 0.050991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/金东村室外/Natural/杨树.png
-  artifactKey: Guid(c969aaae674e0a3419de377397423106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/杨树.png using Guid(c969aaae674e0a3419de377397423106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310854997d95325e390ea159a0593723') in 0.038239 seconds 
-  Import took 0.045530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Sprites/申信家室内/外屋/cooking bench（package）.png
-  artifactKey: Guid(5b773f8028e5b42f689b447652192a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/cooking bench（package）.png using Guid(5b773f8028e5b42f689b447652192a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170c9466ec5dd5d416f788e850c4f602') in 0.029497 seconds 
-  Import took 0.036769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/金东村室外/town.preset
-  artifactKey: Guid(2ef1cb6556a9d654e9ac2777c44bc178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/town.preset using Guid(2ef1cb6556a9d654e9ac2777c44bc178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3401238ae9e8af2e04e13b703f1df395') in 0.011609 seconds 
-  Import took 0.018824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Sprites/申信家室内/外屋/wardrobe.png
-  artifactKey: Guid(ad9536835d2954d54a66734b9e537fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/wardrobe.png using Guid(ad9536835d2954d54a66734b9e537fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e475485d84b535a92ab88cf8045cc5be') in 0.029502 seconds 
-  Import took 0.035611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sprites/申信家室内/外屋/door（open）.png
-  artifactKey: Guid(28a495fe009a84d088d02247ee783ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/door（open）.png using Guid(28a495fe009a84d088d02247ee783ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07787858e1e91e2968071e31ce0bbb3d') in 0.025899 seconds 
-  Import took 0.036688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Sprites/申信家室内/外屋/refrigerator.png
-  artifactKey: Guid(2deb933e624424f8c9be941e3ef06e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/refrigerator.png using Guid(2deb933e624424f8c9be941e3ef06e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2f80be378282a04400aac5a0f77db1') in 0.025377 seconds 
-  Import took 0.032755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Sprites/金东村室外/Natural/小麦_.png
-  artifactKey: Guid(aced99616afb3844bb7be8d7bbdb79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/小麦_.png using Guid(aced99616afb3844bb7be8d7bbdb79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000360c3ed946b56931e9339582e808d') in 0.030551 seconds 
-  Import took 0.037255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Sprites/申信家室内/外屋/washbasin.png
-  artifactKey: Guid(51cd3c44a9158489ba014599207cbe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/washbasin.png using Guid(51cd3c44a9158489ba014599207cbe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b8b43f2f656aec3660d01d93e10076') in 0.026044 seconds 
-  Import took 0.036892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Sprites/金东村室外/Natural/水草.png
-  artifactKey: Guid(a2de9201d290a4478af35ad8bf781430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/水草.png using Guid(a2de9201d290a4478af35ad8bf781430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eba91873d63bda0898d01a6c24c5d44') in 0.030576 seconds 
-  Import took 0.036592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
   path: Assets/Sprites/金东村室外/Natural/小麦__0.prefab
   artifactKey: Guid(c124bd12d93de6b459f43aa2a2c98a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/小麦__0.prefab using Guid(c124bd12d93de6b459f43aa2a2c98a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89668f16bd94941a6854dc8d60123778') in 0.023297 seconds 
-  Import took 0.031262 seconds .
+Start importing Assets/Sprites/金东村室外/Natural/小麦__0.prefab using Guid(c124bd12d93de6b459f43aa2a2c98a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89668f16bd94941a6854dc8d60123778') in 0.021345 seconds 
+  Import took 0.031307 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/申信家室内/外屋/wall.png
-  artifactKey: Guid(253cf75d85962408bb0c80cee0cdcc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/wall.png using Guid(253cf75d85962408bb0c80cee0cdcc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a67938a830047652a235b786c8cfb6') in 0.030762 seconds 
-  Import took 0.036924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Sprites/金东村室外/Natural/wheat.preset
-  artifactKey: Guid(b8135f4e35a83cb45a3692f0d32c2c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/wheat.preset using Guid(b8135f4e35a83cb45a3692f0d32c2c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b7b101c1d7dde66cd2b87a5923b422') in 0.007358 seconds 
-  Import took 0.013253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
+  Time since last request: 0.000315 seconds.
   path: Assets/Sprites/金东村室外/Natural/麦地.png
   artifactKey: Guid(cf62796a353e09a46a9eb8f8b32f249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/金东村室外/Natural/麦地.png using Guid(cf62796a353e09a46a9eb8f8b32f249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be22db687c965991a22bc610b5d98ee8') in 0.034326 seconds 
-  Import took 0.042770 seconds .
+Start importing Assets/Sprites/金东村室外/Natural/麦地.png using Guid(cf62796a353e09a46a9eb8f8b32f249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be22db687c965991a22bc610b5d98ee8') in 0.025927 seconds 
+  Import took 0.032759 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprites/申信家室内/外屋/lion.png
-  artifactKey: Guid(8f7fed08d304b41f5ba6ddc80ff87919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/申信家室内/外屋/lion.png using Guid(8f7fed08d304b41f5ba6ddc80ff87919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eec85b531aac53bfa721875f8d3bdbf') in 0.029880 seconds 
-  Import took 0.037068 seconds .
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sprites/金东村室外/Natural/wheat.preset
+  artifactKey: Guid(b8135f4e35a83cb45a3692f0d32c2c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Natural/wheat.preset using Guid(b8135f4e35a83cb45a3692f0d32c2c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b7b101c1d7dde66cd2b87a5923b422') in 0.008830 seconds 
+  Import took 0.015318 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3893 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 158.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4490.
+Total: 3.297300 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.225700 ms MarkObjects: 2.731900 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1935.131338 seconds.
+  path: Assets/Sprites/金东村室外/town.preset
+  artifactKey: Guid(2ef1cb6556a9d654e9ac2777c44bc178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/town.preset using Guid(2ef1cb6556a9d654e9ac2777c44bc178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3401238ae9e8af2e04e13b703f1df395') in 0.025317 seconds 
+  Import took 0.032217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.095020 seconds.
+  path: Assets/Sprites/金东村室外/Artificial
+  artifactKey: Guid(56f2e0d209c704bee98a58e081e0197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial using Guid(56f2e0d209c704bee98a58e081e0197a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae693128eca9daf0413015b522c43368') in 0.006634 seconds 
+  Import took 0.014797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147311 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品1.png
+  artifactKey: Guid(8e632073c77b0824c9e414466068940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品1.png using Guid(8e632073c77b0824c9e414466068940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c41b476aa667864cd3bbe3be696055') in 0.151017 seconds 
+  Import took 0.158025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/白色塑料袋.png
+  artifactKey: Guid(0a919d74180264587856659d6f1bdc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/白色塑料袋.png using Guid(0a919d74180264587856659d6f1bdc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c6fc342056db4c0de7d3cef614be95') in 0.022597 seconds 
+  Import took 0.028904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/水沟.png
+  artifactKey: Guid(5e4bfa13674f6c64182ab29744f2e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/水沟.png using Guid(5e4bfa13674f6c64182ab29744f2e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff02d8cef72ba90217a3e68dc165c568') in 0.067351 seconds 
+  Import took 0.074120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.995482 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2.png
+  artifactKey: Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2.png using Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e52504b35ff0b282b48bf137c899c4') in 0.021149 seconds 
+  Import took 0.028689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.675562 seconds.
+  path: Assets/Sprites/Characters/Shen/PoliceUp/character_preset.preset
+  artifactKey: Guid(bc9edc017faee5349a48cd7a22eb44c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Shen/PoliceUp/character_preset.preset using Guid(bc9edc017faee5349a48cd7a22eb44c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb16cff41cabb2a8bc0beb4bf7e74b28') in 0.011358 seconds 
+  Import took 0.020117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.146007 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2.png
+  artifactKey: Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2.png using Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4a5a97c22fbbcc27d148704d20f488') in 0.028946 seconds 
+  Import took 0.036445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.156059 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2.png
+  artifactKey: Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2.png using Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80ff4efe15607f6f16006df9946511d') in 0.017341 seconds 
+  Import took 0.026023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.527105 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2.png
+  artifactKey: Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2.png using Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af9cd4f50b4ac2aa8f5765db05c76e0') in 0.096036 seconds 
+  Import took 0.103648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.640499 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2.png
+  artifactKey: Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2.png using Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b39c7f434846abf9cc8846f41e8369') in 0.100405 seconds 
+  Import took 0.109600 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3893 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 158.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4559.
+Total: 3.251500 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.213700 ms MarkObjects: 2.551600 ms  DeleteObjects: 0.196700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 272.330795 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2_8.prefab
+  artifactKey: Guid(aa27cac8ac730fa4694d80876bfabf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2_8.prefab using Guid(aa27cac8ac730fa4694d80876bfabf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0475fbba107fb681068ac061ee710314') in 0.063782 seconds 
+  Import took 0.070869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.067545 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2_7.prefab
+  artifactKey: Guid(3a2cf33ee197a0d45b8ed1a00d170b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2_7.prefab using Guid(3a2cf33ee197a0d45b8ed1a00d170b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de436fb7aeb7eaf8d835627510efa239') in 0.020665 seconds 
+  Import took 0.027430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.653661 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2_6.prefab
+  artifactKey: Guid(47e82aa9ee9780548bb40994762ef29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2_6.prefab using Guid(47e82aa9ee9780548bb40994762ef29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd541444cc0570fb328ed6b58bf667f57') in 0.024307 seconds 
+  Import took 0.033865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.621843 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2_5.prefab
+  artifactKey: Guid(f3fb1b1dd02b92c4a9077883f05b921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2_5.prefab using Guid(f3fb1b1dd02b92c4a9077883f05b921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c2dadb5057db555074a7faf1e1414f') in 0.024959 seconds 
+  Import took 0.032143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.384319 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2_9.prefab
+  artifactKey: Guid(81e7fc7085f4d3a4a834dcf648c9c5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2_9.prefab using Guid(81e7fc7085f4d3a4a834dcf648c9c5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e36c9454cbb89ca4d6905599cb2a109') in 0.021884 seconds 
+  Import took 0.030373 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (866ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3893 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 158.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4562.
+Total: 3.146900 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.207400 ms MarkObjects: 2.621100 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3893 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 158.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4564.
+Total: 3.299400 ms (FindLiveObjects: 0.420200 ms CreateObjectMapping: 0.166700 ms MarkObjects: 2.684900 ms  DeleteObjects: 0.026900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 874.265022 seconds.
+  path: Assets/Sprites/金东村室外/Artificial/人工环境物品2.png
+  artifactKey: Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/金东村室外/Artificial/人工环境物品2.png using Guid(302408e8759ebd74a9a77015eb2999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faf050855b84511e7e9f569faf21956') in 0.120456 seconds 
+  Import took 0.127757 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3893 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 158.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4567.
+Total: 3.898300 ms (FindLiveObjects: 0.812100 ms CreateObjectMapping: 0.451700 ms MarkObjects: 2.607700 ms  DeleteObjects: 0.024800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
