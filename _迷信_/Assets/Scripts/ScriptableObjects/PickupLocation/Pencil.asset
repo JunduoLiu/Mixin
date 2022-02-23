@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01bf88b32aa8c4ad284c3ad24494deb7, type: 3}
-  m_Name: Lighter
+  m_Name: Pencil
   m_EditorClassIdentifier: 
-  s_item: {fileID: 11400000, guid: 265448817007c43c1926f532663f6d05, type: 2}
-  hasPickedUp: 0
+  s_item: {fileID: 11400000, guid: fc17e94dee343496ab8feebff95309a9, type: 2}
+  hasPickedUp: 1

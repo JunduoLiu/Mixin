@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cd237cbdd6404171b43faf7c2b45c9b, type: 3}
-  m_Name: StolenPencil
+  m_Name: StolenLighter
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: f4e84e8d3ff9fea459ad0d59837fd728, type: 3}
-  Id: 3
+  sprite: {fileID: 5253162343287518999, guid: 5817e90644f0e4bffb15a24002b5c030, type: 3}
+  Id: 2
   itemType: 1
-  itemName: "\u94C5\u7B14"
-  itemDesc: "\u53EA\u5269\u534A\u622A\u76842B\u94C5\u7B14"
-  stolenScene: 0
+  itemName: "\u6253\u706B\u673A"
+  itemDesc: "\u968F\u5904\u53EF\u89C1\u7684\u4E0D\u9632\u98CE\u5EC9\u4EF7\u6253\u706B\u673A"
+  stolenScene: 1

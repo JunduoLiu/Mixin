@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd237cbdd6404171b43faf7c2b45c9b, type: 3}
   m_Name: StolenHairpin
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: c4f89361e163d624bba9ab9972c3d135, type: 3}
+  sprite: {fileID: 674649048987580568, guid: 5817e90644f0e4bffb15a24002b5c030, type: 3}
   Id: 1
   itemType: 1
   itemName: "\u53D1\u5361"
