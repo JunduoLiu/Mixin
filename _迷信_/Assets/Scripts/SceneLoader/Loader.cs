@@ -10,10 +10,24 @@ public enum enumScene
     HouseShenXin,
     TownJinDong,
     Loading,
+    HouseHuang,
+    Clinic,
 }
 
 public static class Loader
 {
+    public static String SceneName(enumScene _scene)
+    {
+        switch (_scene)
+        {
+            default:
+            case enumScene.MainMenu:        return "主菜单";
+            case enumScene.HouseShenXin:    return "申信家";
+            case enumScene.HouseHuang:      return "黄阿姨家";
+            case enumScene.Clinic:          return "诊所";
+            case enumScene.Loading:         return "跳转页";
+        }
+    }
     /*
      * Toby
      */

@@ -15,6 +15,6 @@ public class StolenItem : Item
 
     new public string ItemDescription()
     {
-        return String.Format("从{0}偷来的{1}", stolenScene.ToString(), itemDesc);
+        return String.Format("从{0}偷来的{1}", Loader.SceneName(stolenScene), itemDesc);
     }
 }

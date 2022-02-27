@@ -650,7 +650,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: LoadLevel(TownJinDong)
+        value: LoadScene("TownJinDong@PlayerSpawnPoint")
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence

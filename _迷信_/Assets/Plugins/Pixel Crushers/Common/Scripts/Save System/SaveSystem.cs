@@ -408,7 +408,7 @@ namespace PixelCrushers
 #endif
 
         /// <summary>
-        /// Saves a game into a slot using the storage provider on the 
+        /// Saves a game into a slot using the storage provider on the
         /// Save System GameObject.
         /// </summary>
         /// <param name="slotNumber">Slot in which to store saved game data.</param>
@@ -564,7 +564,7 @@ namespace PixelCrushers
         }
 
         /// <summary>
-        /// Updates the SaveSystem's internal saved game data cache with data for a 
+        /// Updates the SaveSystem's internal saved game data cache with data for a
         /// specific saver.
         /// </summary>
         /// <param name="saver"></param>
@@ -641,7 +641,7 @@ namespace PixelCrushers
         }
 
         /// <summary>
-        /// Loads the scene recorded in the saved game data (if saveCurrentScene is true) and 
+        /// Loads the scene recorded in the saved game data (if saveCurrentScene is true) and
         /// applies the saved game data to it.
         /// </summary>
         /// <param name="savedGameData"></param>
@@ -800,7 +800,7 @@ namespace PixelCrushers
 
         /// <summary>
         /// Deserializes a previously-serialized string representation of an object
-        /// back into an object. Uses whatever serializer is assigned to the 
+        /// back into an object. Uses whatever serializer is assigned to the
         /// SaveSystem (JSON by default).
         /// </summary>
         /// <typeparam name="T">The type of the object.</typeparam>
