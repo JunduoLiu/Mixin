@@ -90,14 +90,14 @@ public class InventoryUI : MonoBehaviour
     private void CreateDisplay()
     {
         itemsDisplayed = new Dictionary<GameObject, InventorySlot>();
-        for (int i = 0; i < inventory.Container.ItemList.Length; i++)
+        for (int i = 0; i < inventory.container.ItemList.Length; i++)
         {
-            InventorySlot slot = inventory.Container.ItemList[i];
+            InventorySlot slot = inventory.container.ItemList[i];
             var obj = Instantiate(prefab, Vector3.zero, Quaternion.identity, itemSlotContainer);
             obj.GetComponentInChildren<InventorySlotUI>().SetInventorySlotUI(inventory.database, slot);
             if (slot.id > -1)
             {
-                itemsDisplayed.Add(obj, inventory.Container.ItemList[i]);
+                itemsDisplayed.Add(obj, slot);
 
                 obj.GetComponentInChildren<InventorySlotUI>().InventorySlotSelected.AddListener(OnInventorySlotSelected);
             }

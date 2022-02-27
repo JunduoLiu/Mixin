@@ -14,7 +14,7 @@ public class Inventory : ScriptableObject
 {
     public string savePath;
     public ItemDatabase database;
-    public InventoryContainer Container;
+    public InventoryContainer container;
     public InventoryUpdateEvent InventoryUpdated;
 
     // void OnEnable()
@@ -41,12 +41,12 @@ public class Inventory : ScriptableObject
 
     public void AddItem(Item _item, int _amount)
     {
-        for (int i = 0; i < Container.ItemList.Length; i++)
+        for (int i = 0; i < container.ItemList.Length; i++)
         {
-            if(Container.ItemList[i].id == _item.id)
+            if(container.ItemList[i].id == _item.id)
             {
-                Container.ItemList[i].amount += _amount;
-                InventoryUpdated.Invoke(Container.ItemList[i]);
+                container.ItemList[i].amount += _amount;
+                InventoryUpdated.Invoke(container.ItemList[i]);
                 return;
             }
         }
@@ -63,16 +63,16 @@ public class Inventory : ScriptableObject
     public void RemoveItem(Item _item, int _amount)
     {
         Debug.Log("Remove Item. Implementing...");
-        for (int i = 0; i < Container.ItemList.Length; i++)
+        for (int i = 0; i < container.ItemList.Length; i++)
         {
-            if(Container.ItemList[i].id == _item.id)
+            if(container.ItemList[i].id == _item.id)
             {
-                Container.ItemList[i].amount -= _amount;
-                if (Container.ItemList[i].amount == 0)
+                container.ItemList[i].amount -= _amount;
+                if (container.ItemList[i].amount == 0)
                 {
-                    Container.ItemList[i].id = -1;
+                    container.ItemList[i].id = -1;
                 }
-                InventoryUpdated.Invoke(Container.ItemList[i]);
+                InventoryUpdated.Invoke(container.ItemList[i]);
                 return;
             }
         }
@@ -81,12 +81,12 @@ public class Inventory : ScriptableObject
 
     public InventorySlot SetFirstEmptySlot(Item _item, int _amount)
     {
-        for (int i = 0; i < Container.ItemList.Length; i++)
+        for (int i = 0; i < container.ItemList.Length; i++)
         {
-            if (Container.ItemList[i].id <= -1)
+            if (container.ItemList[i].id <= -1)
             {
-                Container.ItemList[i].UpdateSlot(_item.id, _amount);
-                return Container.ItemList[i];
+                container.ItemList[i].UpdateSlot(_item.id, _amount);
+                return container.ItemList[i];
             }
         }
         return null; // inventory is full
@@ -108,7 +108,7 @@ public class Inventory : ScriptableObject
     //
     //     IFormatter formatter = new BinaryFormatter();
     //     Stream stream = new FileStream(string.Concat(Application.persistentDataPath, savePath), FileMode.Create, FileAccess.Write);
-    //     formatter.Serialize(stream, Container);
+    //     formatter.Serialize(stream, container);
     //     stream.Close();
     // }
     //
@@ -125,7 +125,7 @@ public class Inventory : ScriptableObject
     //
     //         IFormatter formatter = new BinaryFormatter();
     //         Stream stream = new FileStream(string.Concat(Application.persistentDataPath, savePath), FileMode.Open, FileAccess.Read);
-    //         Container = (InventoryContainer)formatter.Deserialize(stream);
+    //         container = (Inventorycontainer)formatter.Deserialize(stream);
     //         stream.Close();
     //     }
     // }
@@ -133,15 +133,15 @@ public class Inventory : ScriptableObject
     [ContextMenu("Clear")]
     public void Clear()
     {
-        Container = new InventoryContainer();
+        container = new InventoryContainer();
     }
 
     // As soon as any changes are made to the ScriptableObject,
     // repopulate the item slot, so that items match the ids
     // public void OnAfterDeserialize()
     // {
-    //     for (int i = 0; i < Container.ItemList.Count; i++)
-    //         Container.ItemList[i].item = database.GetItem[Container.ItemList[i].id];
+    //     for (int i = 0; i < container.ItemList.Count; i++)
+    //         container.ItemList[i].item = database.GetItem[container.ItemList[i].id];
     // }
     //
     // public void OnBeforeSerialize()
@@ -190,8 +190,3 @@ public class InventorySlot
 public class InventoryUpdateEvent : UnityEvent<InventorySlot>
 {
 }
-
-// public class InventoryItem
-// {
-//     pub
-// }
